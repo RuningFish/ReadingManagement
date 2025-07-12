@@ -21,8 +21,6 @@
     self.rmm_setting_tableView.backgroundColor = [UIColor clearColor];
     self.view.backgroundColor = MAIN_VIEW_COLOR;
     self.rmm_setting_dataSource = @[@"清除缓存",@"版本更新",@"意见反馈"];
-    
-    NSLog(@"RMMSettingViewController --- log");
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
