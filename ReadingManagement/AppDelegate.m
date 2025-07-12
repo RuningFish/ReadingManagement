@@ -16,6 +16,11 @@
     
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[RMMSlpashViewController new]];
     self.window.rootViewController = nav;
+    
+    if (![[NSFileManager defaultManager] fileExistsAtPath:KReadingBookTypeRecordPath]) {
+        [NSKeyedArchiver archiveRootObject:@[@"文学", @"科幻", @"历史", @"心理学", @"自助", @"传记", @"技术", @"商业"] toFile:KReadingBookTypeRecordPath];
+    }
+    
     return YES;
 }
 @end
