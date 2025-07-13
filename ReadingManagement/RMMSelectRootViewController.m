@@ -20,7 +20,7 @@
     UINavigationController *nav_1 = [[UINavigationController alloc] initWithRootViewController:vc_1];
     
     RMMRecordViewController *vc_2 = [RMMRecordViewController new];
-    vc_2.title = @"记录";
+    vc_2.title = @"管理";
     UINavigationController *nav_2 = [[UINavigationController alloc] initWithRootViewController:vc_2];
     
     RMMSettingViewController *vc_3 = [RMMSettingViewController new];

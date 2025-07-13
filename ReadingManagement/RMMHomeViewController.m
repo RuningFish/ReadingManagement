@@ -7,6 +7,7 @@
 
 #import "RMMHomeViewController.h"
 #import "RMMAddBookViewController.h"
+#import "RMMHomeTableViewCell.h"
 @interface RMMHomeViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *rmm_home_tableView;
 @property (nonatomic, strong) NSArray *rmm_home_dataSource;
@@ -21,7 +22,6 @@
     [self.view addSubview:self.rmm_home_tableView];
     self.rmm_home_tableView.backgroundColor = [UIColor clearColor];
     self.view.backgroundColor = MAIN_VIEW_COLOR;
-    self.rmm_home_dataSource = @[@"清除缓存",@"版本更新",@"意见反馈"];
     
     UIButton *rmm_home_nav_right_button = [UIButton buttonWithType:UIButtonTypeSystem];
     [rmm_home_nav_right_button setTitle:@"+" forState:UIControlStateNormal];
@@ -29,9 +29,18 @@
     [rmm_home_nav_right_button setTitleColor:[UIColor systemBlueColor] forState:UIControlStateNormal];
     [rmm_home_nav_right_button addTarget:self action:@selector(rmm_home_nav_right_buttonClick:) forControlEvents:UIControlEventTouchUpInside];
     
-    UIBarButtonItem *rightItem = [[UIBarButtonItem alloc]initWithCustomView:rmm_home_nav_right_button];
+    UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] initWithCustomView:rmm_home_nav_right_button];
     self.navigationItem.rightBarButtonItem = rightItem;
     
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reloadDdata) name:KReadingManagementRecordAddSuccessNotificationName object:nil];
+}
+
+- (void)reloadDdata {
+    [self.rmm_home_tableView reloadData];
+}
+
+- (NSArray *)rmm_home_dataSource {
+    return [NSArray arrayWithArray:[NSKeyedUnarchiver unarchiveObjectWithFile:KReadingManagementRecordPath]];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -43,13 +52,10 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:[NSString stringWithFormat:@"COPSettingViewController-%ld",indexPath.row]];
-    cell.selectionStyle = UITableViewCellSelectionStyleNone;
-    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-    cell.backgroundColor = [UIColor clearColor];
+    RMMHomeTableViewCell *cell = [RMMHomeTableViewCell cellWithTableView:tableView];
     if (indexPath.row < self.rmm_home_dataSource.count) {
-        NSString *title = self.rmm_home_dataSource[indexPath.row];
-        cell.textLabel.text = title;
+        NSDictionary *item_dict = self.rmm_home_dataSource[indexPath.row];
+        cell.item_dict = item_dict;
     }
     return cell;
 }
@@ -58,6 +64,39 @@
     if (indexPath.row == 0) {
 
     }
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+    UIView *sectionHeaderView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 30)];
+    UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 0, [UIScreen mainScreen].bounds.size.width - 40, 30)];
+    [sectionHeaderView addSubview:titleLabel];
+    titleLabel.textColor = [UIColor blackColor];
+    titleLabel.textAlignment = NSTextAlignmentLeft;
+    titleLabel.font = [UIFont systemFontOfSize:15];
+    titleLabel.text = @"我的书籍";
+    return sectionHeaderView;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+    return 30;
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section {
+    UIView *sectionFooterView = nil;
+    if (section == 0 && self.rmm_home_dataSource.count == 0) {
+        sectionFooterView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 220)];
+        UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(20,0, [UIScreen mainScreen].bounds.size.width - 40, sectionFooterView.frame.size.height)];
+        [sectionFooterView addSubview:titleLabel];
+        titleLabel.text = @"还没有书籍哦，赶快去添加吧～";
+        titleLabel.textColor = [UIColor systemRedColor];
+        titleLabel.textAlignment = NSTextAlignmentCenter;
+        titleLabel.font = [UIFont systemFontOfSize:15];
+    }
+    return sectionFooterView;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
+    return self.rmm_home_dataSource.count == 0 ? 220.0f : 0.0f;
 }
 
 - (void)rmm_home_nav_right_buttonClick:(UIButton *)button {
@@ -69,10 +108,11 @@
 #pragma mark - Lazy
 - (UITableView *)rmm_home_tableView {
     if (!_rmm_home_tableView) {
-        _rmm_home_tableView = [[UITableView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+        _rmm_home_tableView = [[UITableView alloc] initWithFrame:[UIScreen mainScreen].bounds style:UITableViewStyleGrouped];
         _rmm_home_tableView.delegate = self;
         _rmm_home_tableView.dataSource = self;
-        _rmm_home_tableView.rowHeight = 44;
+        _rmm_home_tableView.rowHeight = UITableViewAutomaticDimension;
+        _rmm_home_tableView.estimatedRowHeight = 144;
         _rmm_home_tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     }
     return _rmm_home_tableView;

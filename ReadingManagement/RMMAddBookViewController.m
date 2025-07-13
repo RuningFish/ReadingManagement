@@ -279,12 +279,18 @@
         rmm_record_arrays = [NSKeyedUnarchiver unarchiveObjectWithFile:filePath];
     }
     
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    formatter.dateFormat = @"yyyy-MM-dd HH:mm:ss";
+    NSDate *now = [NSDate date];
+    NSString *dateString = [formatter stringFromDate:now];
+    
     NSDictionary *item_dict = @{
         @"name":[self.rmm_info_item_textFields[0] text] ? : @"",
         @"author":[self.rmm_info_item_textFields[1] text] ? : @"",
         @"page":[self.rmm_info_item_textFields[2] text] ? : @"",
         @"type":self.rmm_select_book_type ? : @"",
         @"tag":self.rmm_select_book_tag ? : @"",
+        @"time":dateString ? : @""
     };
     
     [rmm_record_arrays addObject:item_dict];
