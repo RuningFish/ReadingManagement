@@ -26,6 +26,8 @@
 		EA502B232E22672C0028CD13 /* RMMTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA502B222E22672C0028CD13 /* RMMTabBarViewController.m */; };
 		EA502B262E2267AC0028CD13 /* RMMRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA502B252E2267AC0028CD13 /* RMMRecordViewController.m */; };
 		EA502B292E2267C70028CD13 /* RMMSelectRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA502B282E2267C70028CD13 /* RMMSelectRootViewController.m */; };
+		EA502B2D2E22800C0028CD13 /* RMMAddBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA502B2C2E22800C0028CD13 /* RMMAddBookViewController.m */; };
+		EA502B302E2340240028CD13 /* RMMHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA502B2F2E2340240028CD13 /* RMMHomeTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +86,10 @@
 		EA502B272E2267C70028CD13 /* RMMSelectRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMMSelectRootViewController.h; sourceTree = "<group>"; };
 		EA502B282E2267C70028CD13 /* RMMSelectRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMMSelectRootViewController.m; sourceTree = "<group>"; };
 		EA502B2A2E2267D90028CD13 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		EA502B2B2E22800C0028CD13 /* RMMAddBookViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMMAddBookViewController.h; sourceTree = "<group>"; };
+		EA502B2C2E22800C0028CD13 /* RMMAddBookViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMMAddBookViewController.m; sourceTree = "<group>"; };
+		EA502B2E2E2340240028CD13 /* RMMHomeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMMHomeTableViewCell.h; sourceTree = "<group>"; };
+		EA502B2F2E2340240028CD13 /* RMMHomeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMMHomeTableViewCell.m; sourceTree = "<group>"; };
 		FBCDA65BCC2F56C7571160AE /* Pods-ReadingManagementTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReadingManagementTests.debug.xcconfig"; path = "Target Support Files/Pods-ReadingManagementTests/Pods-ReadingManagementTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -187,6 +193,10 @@
 				EA502B272E2267C70028CD13 /* RMMSelectRootViewController.h */,
 				EA502B282E2267C70028CD13 /* RMMSelectRootViewController.m */,
 				EA502B2A2E2267D90028CD13 /* PrefixHeader.pch */,
+				EA502B2B2E22800C0028CD13 /* RMMAddBookViewController.h */,
+				EA502B2C2E22800C0028CD13 /* RMMAddBookViewController.m */,
+				EA502B2E2E2340240028CD13 /* RMMHomeTableViewCell.h */,
+				EA502B2F2E2340240028CD13 /* RMMHomeTableViewCell.m */,
 			);
 			path = ReadingManagement;
 			sourceTree = "<group>";
@@ -415,6 +425,7 @@
 				EA502AE82E2261F70028CD13 /* ViewController.m in Sources */,
 				EA502B262E2267AC0028CD13 /* RMMRecordViewController.m in Sources */,
 				EA502AE22E2261F70028CD13 /* AppDelegate.m in Sources */,
+				EA502B302E2340240028CD13 /* RMMHomeTableViewCell.m in Sources */,
 				EA502B232E22672C0028CD13 /* RMMTabBarViewController.m in Sources */,
 				EA502B292E2267C70028CD13 /* RMMSelectRootViewController.m in Sources */,
 				EA502B172E2266D90028CD13 /* RMMHomeViewController.m in Sources */,
