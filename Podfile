@@ -4,7 +4,7 @@
 target 'ReadingManagement' do
   pod 'AFNetworking', '3.2.1', :subspecs => ['Reachability', 'Serialization', 'Security', 'NSURLSession']
   pod 'Masonry'
-
+  pod 'BRPickerView'
   # Pods for ReadingManagement
 
   target 'ReadingManagementTests' do
