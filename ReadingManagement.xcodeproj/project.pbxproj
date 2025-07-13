@@ -422,6 +422,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA502B202E22670C0028CD13 /* RMMFeedbackViewController.m in Sources */,
+				EA502B2D2E22800C0028CD13 /* RMMAddBookViewController.m in Sources */,
 				EA502AE82E2261F70028CD13 /* ViewController.m in Sources */,
 				EA502B262E2267AC0028CD13 /* RMMRecordViewController.m in Sources */,
 				EA502AE22E2261F70028CD13 /* AppDelegate.m in Sources */,

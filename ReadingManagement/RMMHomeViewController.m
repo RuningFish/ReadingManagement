@@ -17,8 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
     
+    [self.navigationItem setTitle:@"读书管理"];
+    [self.view addSubview:self.rmm_home_tableView];
+    self.rmm_home_tableView.backgroundColor = [UIColor clearColor];
     self.view.backgroundColor = MAIN_VIEW_COLOR;
     
     UIButton *rmm_home_nav_right_button = [UIButton buttonWithType:UIButtonTypeSystem];
