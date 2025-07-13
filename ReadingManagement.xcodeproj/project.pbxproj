@@ -10,6 +10,7 @@
 		9A3CF33DD6ED45C328A4E606 /* libPods-ReadingManagement-ReadingManagementUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72AF9B67BE22AB9DCC50D198 /* libPods-ReadingManagement-ReadingManagementUITests.a */; };
 		B006378547353F8A185C9180 /* libPods-ReadingManagement.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E443F13C382FFC4F359D336 /* libPods-ReadingManagement.a */; };
 		BA2A3AB854EDE66A19D31607 /* libPods-ReadingManagementTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCB467A25A29F602A3636DB /* libPods-ReadingManagementTests.a */; };
+		EA41C5CE2E23626100C8229A /* RMMBookDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA41C5CD2E23626100C8229A /* RMMBookDetailViewController.m */; };
 		EA502AE22E2261F70028CD13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA502AE12E2261F70028CD13 /* AppDelegate.m */; };
 		EA502AE82E2261F70028CD13 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA502AE72E2261F70028CD13 /* ViewController.m */; };
 		EA502AEB2E2261F70028CD13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA502AE92E2261F70028CD13 /* Main.storyboard */; };
@@ -56,6 +57,8 @@
 		8E443F13C382FFC4F359D336 /* libPods-ReadingManagement.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReadingManagement.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D233F753A4FEB0E096EB60 /* Pods-ReadingManagement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReadingManagement.release.xcconfig"; path = "Target Support Files/Pods-ReadingManagement/Pods-ReadingManagement.release.xcconfig"; sourceTree = "<group>"; };
 		AC9E588E515435C3C8D0ECEC /* Pods-ReadingManagement-ReadingManagementUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReadingManagement-ReadingManagementUITests.release.xcconfig"; path = "Target Support Files/Pods-ReadingManagement-ReadingManagementUITests/Pods-ReadingManagement-ReadingManagementUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EA41C5CC2E23626100C8229A /* RMMBookDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMMBookDetailViewController.h; sourceTree = "<group>"; };
+		EA41C5CD2E23626100C8229A /* RMMBookDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMMBookDetailViewController.m; sourceTree = "<group>"; };
 		EA502ADD2E2261F70028CD13 /* ReadingManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadingManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA502AE02E2261F70028CD13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA502AE12E2261F70028CD13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -197,6 +200,8 @@
 				EA502B2C2E22800C0028CD13 /* RMMAddBookViewController.m */,
 				EA502B2E2E2340240028CD13 /* RMMHomeTableViewCell.h */,
 				EA502B2F2E2340240028CD13 /* RMMHomeTableViewCell.m */,
+				EA41C5CC2E23626100C8229A /* RMMBookDetailViewController.h */,
+				EA41C5CD2E23626100C8229A /* RMMBookDetailViewController.m */,
 			);
 			path = ReadingManagement;
 			sourceTree = "<group>";
@@ -229,6 +234,7 @@
 				EA502AD92E2261F70028CD13 /* Sources */,
 				EA502ADA2E2261F70028CD13 /* Frameworks */,
 				EA502ADB2E2261F70028CD13 /* Resources */,
+				87FB18BA0E0284A664636152 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,6 +272,7 @@
 				EA502AFE2E2261F80028CD13 /* Sources */,
 				EA502AFF2E2261F80028CD13 /* Frameworks */,
 				EA502B002E2261F80028CD13 /* Resources */,
+				1475B1CCF2548C546ABC1094 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -348,6 +355,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1475B1CCF2548C546ABC1094 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReadingManagement-ReadingManagementUITests/Pods-ReadingManagement-ReadingManagementUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReadingManagement-ReadingManagementUITests/Pods-ReadingManagement-ReadingManagementUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReadingManagement-ReadingManagementUITests/Pods-ReadingManagement-ReadingManagementUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		313FBC1D87ACE7001DDDEA96 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -414,6 +438,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		87FB18BA0E0284A664636152 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReadingManagement/Pods-ReadingManagement-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReadingManagement/Pods-ReadingManagement-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReadingManagement/Pods-ReadingManagement-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -426,6 +467,7 @@
 				EA502AE82E2261F70028CD13 /* ViewController.m in Sources */,
 				EA502B262E2267AC0028CD13 /* RMMRecordViewController.m in Sources */,
 				EA502AE22E2261F70028CD13 /* AppDelegate.m in Sources */,
+				EA41C5CE2E23626100C8229A /* RMMBookDetailViewController.m in Sources */,
 				EA502B302E2340240028CD13 /* RMMHomeTableViewCell.m in Sources */,
 				EA502B232E22672C0028CD13 /* RMMTabBarViewController.m in Sources */,
 				EA502B292E2267C70028CD13 /* RMMSelectRootViewController.m in Sources */,
@@ -612,6 +654,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ReadingManagement/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ReadingManagement/Info.plist;
@@ -640,6 +683,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ReadingManagement/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ReadingManagement/Info.plist;

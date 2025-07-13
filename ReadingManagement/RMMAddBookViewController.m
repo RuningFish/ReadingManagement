@@ -67,7 +67,7 @@
     titleLabel.textAlignment = NSTextAlignmentLeft;
     titleLabel.font = [UIFont systemFontOfSize:15];
     
-    NSArray *info_items = @[@"姓名", @"作者", @"总页数",];
+    NSArray *info_items = @[@"书名", @"作者", @"总页数",];
     UIView *containerView = [[UIView alloc] initWithFrame:CGRectMake(10, CGRectGetMaxY(titleLabel.frame) + 10, tableHeaderView.frame.size.width - 20, tableHeaderView.frame.size.height - CGRectGetMaxY(titleLabel.frame) - 10)];
     [tableHeaderView addSubview:containerView];
     containerView.backgroundColor = [UIColor whiteColor];

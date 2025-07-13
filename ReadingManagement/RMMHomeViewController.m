@@ -8,6 +8,7 @@
 #import "RMMHomeViewController.h"
 #import "RMMAddBookViewController.h"
 #import "RMMHomeTableViewCell.h"
+#import "RMMBookDetailViewController.h"
 @interface RMMHomeViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *rmm_home_tableView;
 @property (nonatomic, strong) NSArray *rmm_home_dataSource;
@@ -61,8 +62,12 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (indexPath.row == 0) {
-
+    if (indexPath.row < self.rmm_home_dataSource.count) {
+        RMMBookDetailViewController *vc = [RMMBookDetailViewController new];
+        vc.hidesBottomBarWhenPushed = YES;
+        vc.item_book_dict = self.rmm_home_dataSource[indexPath.row];
+        vc.item_book_index = indexPath.row;
+        [self.navigationController pushViewController:vc animated:YES];
     }
 }
 
@@ -70,7 +75,7 @@
     UIView *sectionHeaderView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 30)];
     UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 0, [UIScreen mainScreen].bounds.size.width - 40, 30)];
     [sectionHeaderView addSubview:titleLabel];
-    titleLabel.textColor = [UIColor blackColor];
+    titleLabel.textColor = [UIColor systemPurpleColor];
     titleLabel.textAlignment = NSTextAlignmentLeft;
     titleLabel.font = [UIFont systemFontOfSize:15];
     titleLabel.text = @"我的书籍";
