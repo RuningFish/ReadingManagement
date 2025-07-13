@@ -13,6 +13,7 @@
 @property (nonatomic, strong) UILabel *rmm_home_list_authorLabel;
 @property (nonatomic, strong) UILabel *rmm_home_list_pagesLabel;
 @property (nonatomic, strong) UILabel *rmm_home_list_dateLabel;
+@property (nonatomic, strong) UILabel *rmm_home_list_deleteLabel;
 @property (nonatomic, assign) RMMHomeTableViewCellType rmm_cell_type;
 @end
 
@@ -75,6 +76,14 @@
         self.rmm_home_list_dateLabel.textColor = [UIColor blackColor];
         self.rmm_home_list_dateLabel.textAlignment = NSTextAlignmentLeft;
         
+        self.rmm_home_list_deleteLabel = [[UILabel alloc] init];
+        [bottomView addSubview:self.rmm_home_list_deleteLabel];
+        self.rmm_home_list_deleteLabel.font = [UIFont systemFontOfSize:15];
+        self.rmm_home_list_deleteLabel.textColor = [UIColor redColor];
+        self.rmm_home_list_deleteLabel.textAlignment = NSTextAlignmentCenter;
+        self.rmm_home_list_deleteLabel.text = @"删除";
+        self.rmm_home_list_deleteLabel.hidden = type == RMMTableViewCellTypeHome ? YES : NO;
+        
         [bottomView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.top.offset(10);
             make.right.offset(-10);
@@ -94,10 +103,17 @@
             make.height.mas_equalTo(30);
         }];
         
+        [self.rmm_home_list_deleteLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.equalTo(self.rmm_home_list_nameLabel.mas_bottom).offset(0);
+            make.right.offset(-10);
+            make.width.mas_equalTo(60);
+            make.height.mas_equalTo(30);
+        }];
+        
         [self.rmm_home_list_authorLabel mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.equalTo(self.rmm_home_list_nameLabel.mas_left).offset(0);
             make.top.equalTo(self.rmm_home_list_nameLabel.mas_bottom).offset(0);
-            make.right.offset(-10);
+            make.right.offset(type == RMMTableViewCellTypeHome ? -10 : -80);
             make.height.mas_equalTo(30);
         }];
         
