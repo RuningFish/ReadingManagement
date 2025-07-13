@@ -13,21 +13,27 @@
 @property (nonatomic, strong) UILabel *rmm_home_list_authorLabel;
 @property (nonatomic, strong) UILabel *rmm_home_list_pagesLabel;
 @property (nonatomic, strong) UILabel *rmm_home_list_dateLabel;
+@property (nonatomic, assign) RMMHomeTableViewCellType rmm_cell_type;
 @end
 
 @implementation RMMHomeTableViewCell
 
 + (instancetype)cellWithTableView:(UITableView *)tableView {
-    NSString *identifier = @"RMMHomeTableViewCell";
+    return [self cellWithTableView:tableView type:RMMTableViewCellTypeHome];
+}
+
++ (instancetype)cellWithTableView:(UITableView *)tableView type:(RMMHomeTableViewCellType)type {
+    NSString *identifier = [NSString stringWithFormat:@"RMMHomeTableViewCell- %ld",type];
     RMMHomeTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
     if (cell == nil) {
-        cell = [[RMMHomeTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
+        cell = [[RMMHomeTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier type:type];
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
     }
+    cell.rmm_cell_type = type;
     return cell;
 }
 
-- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
+- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier type:(RMMHomeTableViewCellType)type {
     if ([super initWithStyle:style reuseIdentifier:reuseIdentifier]){
         
         self.backgroundColor = [UIColor clearColor];
@@ -100,6 +106,9 @@
             make.right.offset(-10);
             make.top.equalTo(self.rmm_home_list_authorLabel.mas_bottom).offset(0);
             make.height.mas_equalTo(self.rmm_home_list_authorLabel);
+            if (type == RMMTableViewCellTypeManage) {
+                make.bottom.offset(-10);
+            }
         }];
         
         [self.rmm_home_list_dateLabel mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -107,7 +116,9 @@
             make.right.offset(-10);
             make.top.equalTo(self.rmm_home_list_pagesLabel.mas_bottom).offset(0);
             make.height.mas_equalTo(self.rmm_home_list_authorLabel);
-            make.bottom.offset(-10);
+            if (type == RMMTableViewCellTypeHome) {
+                make.bottom.offset(-10);
+            }
         }];
     
     }
@@ -118,9 +129,11 @@
 - (void)setItem_dict:(NSDictionary *)item_dict {
     _item_dict = item_dict;
     
-    self.rmm_home_list_nameLabel.text = [NSString stringWithFormat:@"名称:%@",item_dict[@"name"]];
+    self.rmm_home_list_nameLabel.text = [NSString stringWithFormat:@"书名:%@",item_dict[@"name"]];
     self.rmm_home_list_authorLabel.text = [NSString stringWithFormat:@"作者:%@",item_dict[@"author"]];
     self.rmm_home_list_pagesLabel.text = [NSString stringWithFormat:@"页数:%@",item_dict[@"page"]];
     self.rmm_home_list_dateLabel.text = [NSString stringWithFormat:@"时间:%@",item_dict[@"time"] ? : @""];
+    
+    self.rmm_home_list_dateLabel.hidden = self.rmm_cell_type == RMMTableViewCellTypeManage ? YES : NO;
 }
 @end
