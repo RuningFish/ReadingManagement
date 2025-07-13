@@ -15,8 +15,8 @@
 @property (nonatomic, copy) NSString *rmm_select_book_type;
 @property (nonatomic, copy) NSString *rmm_select_book_tag;
 @property (nonatomic, strong) UIActivityIndicatorView *indicatorView;
-@end
 
+@end
 @implementation RMMBookDetailViewController
 
 - (void)viewDidLoad {
@@ -315,4 +315,5 @@
     }
     return _indicatorView;
 }
+
 @end
