@@ -6,6 +6,32 @@ PODS:
   - AFNetworking/Reachability (3.2.1)
   - AFNetworking/Security (3.2.1)
   - AFNetworking/Serialization (3.2.1)
+  - BRPickerView (2.9.3):
+    - BRPickerView/All (= 2.9.3)
+  - BRPickerView/All (2.9.3):
+    - BRPickerView/Default
+    - BRPickerView/Deprecated
+  - BRPickerView/Core (2.9.3)
+  - BRPickerView/DatePicker (2.9.3):
+    - BRPickerView/Core
+  - BRPickerView/Default (2.9.3):
+    - BRPickerView/DatePicker
+    - BRPickerView/TextPicker
+  - BRPickerView/Deprecated (2.9.3):
+    - BRPickerView/Core
+    - BRPickerView/Deprecated/AddressPickerView (= 2.9.3)
+    - BRPickerView/Deprecated/Base (= 2.9.3)
+    - BRPickerView/Deprecated/StringPickerView (= 2.9.3)
+  - BRPickerView/Deprecated/AddressPickerView (2.9.3):
+    - BRPickerView/Core
+    - BRPickerView/Deprecated/Base
+  - BRPickerView/Deprecated/Base (2.9.3):
+    - BRPickerView/Core
+  - BRPickerView/Deprecated/StringPickerView (2.9.3):
+    - BRPickerView/Core
+    - BRPickerView/Deprecated/Base
+  - BRPickerView/TextPicker (2.9.3):
+    - BRPickerView/Core
   - Masonry (1.1.0)
 
 DEPENDENCIES:
@@ -13,17 +39,20 @@ DEPENDENCIES:
   - AFNetworking/Reachability (= 3.2.1)
   - AFNetworking/Security (= 3.2.1)
   - AFNetworking/Serialization (= 3.2.1)
+  - BRPickerView
   - Masonry
 
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - BRPickerView
     - Masonry
 
 SPEC CHECKSUMS:
   AFNetworking: cb604b1c2bded0871f5f61f5d53653739e841d6b
+  BRPickerView: 3eb9408f993c27a87badd5e271322f899dbf604a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 0de9eeace2b7eb2ba74b90dde03e69e3abc8ad6d
+PODFILE CHECKSUM: 2f1e7db0490f5799d85a4425c67f17cc2f234e1a
 
 COCOAPODS: 1.10.1

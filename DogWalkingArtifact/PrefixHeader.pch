@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  DogWalkingArtifact
+//
+//  Created by runingfish on 2025/7/26.
+//
+
+#define MAIN_VIEW_COLOR [UIColor colorWithRed:(0)/255.0 green:(181)/255.0 blue:(255)/255.0 alpha:1]
+
+// dog
+#define KDogWarkingRecordPath [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask,YES) objectAtIndex:0] stringByAppendingPathComponent:@"DogWorking.archive"]
+// cat
+#define KCatWorkingRecordPath [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask,YES) objectAtIndex:0] stringByAppendingPathComponent:@"CatWorking.archive"]
+#define KDogWorkingRecordAddSuccessNotificationName @"KDogWorkingRecordAddSuccessNotificationName"
+#define KCatWorkingRecordAddSuccessNotificationName @"KCatWorkingRecordAddSuccessNotificationName"
+#import "Masonry.h"

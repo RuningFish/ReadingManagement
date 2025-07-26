@@ -17,16 +17,15 @@
 		198D19593F033E3C395FE81EC12D0E34 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 244C51A82C1828B9AE80FA49AA342DCC /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1D95A7EBD3A3FBCDA3DB8362C1CDE5DB /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 18EE9DFE987358976BA54C5082A66909 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1F3CD30CB753300715F94DDCD30DA8E5 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = EB0E51B62C91C88730B13F790DDC4979 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		214C4F12DA3DA4F243E2A18272E6B58B /* Pods-ReadingManagement-ReadingManagementUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 331CD3BB8C30C891A5DE4C1F4938FB77 /* Pods-ReadingManagement-ReadingManagementUITests-dummy.m */; };
 		25479BAE119A6C35141F207DC75C14C4 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B30BB8DF9CBB5E873F329F0F2D61D61D /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		29220DDE816F87C24365EF9F9CAA0210 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 81935D1420E2E72B5CBD44CE972979B8 /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2D217A44F1855EB5055A9DA50A092781 /* Pods-ReadingManagement-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D597E16F01747CAC9EB57B4E852A49F /* Pods-ReadingManagement-dummy.m */; };
 		2E9239E1C2AAF41F8EC12CAB46E8575F /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A075899202E82EE3A8B97483CFEAF02 /* MASViewConstraint.m */; };
 		347DB9627381D13ECD6A47F933EB53D9 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4A4A3A6F2A0439045C2EA0F822E77 /* AFSecurityPolicy.m */; };
 		37B7BFBD94ADDC1B098D71997ABC56D7 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E6104B2721D7D95B6335404616BF726 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3BA67A71157768738BE79F05C20B6CB7 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = B7E08C11ECBAD7CFA770C57C2055AC7B /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3FA06AB646FD7002829100AECF75F56D /* NSBundle+BRPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C14CA3293F250F9415AD4840CC688C0 /* NSBundle+BRPickerView.m */; };
 		4422199DC665E332EEFA6532D85D3D0A /* BRPickerAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = E484ACBAE18FB8F889652FAC6C547C6E /* BRPickerAlertView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46DEC7680E22818327302D6AE4C260FC /* Pods-DogWalkingArtifact-DogWalkingArtifactUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9522B2625546F3A9A956DBE22536F /* Pods-DogWalkingArtifact-DogWalkingArtifactUITests-dummy.m */; };
 		48C1F445DD71E565D0588AFEAEEF9F9E /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E9C9EE149BCF08634B3FC14A7BC4AF /* ViewController+MASAdditions.m */; };
 		4B965B2A62911B3F3119FD2CB3EF9BD5 /* BRDatePickerView+BR.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E49AFFDD7A6E006F56BD5753245DBC3 /* BRDatePickerView+BR.m */; };
 		50117893D08349D17031AF57ABE48E28 /* BRDatePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = D13647387F577FEA2AEAE8E63E571A63 /* BRDatePickerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -69,7 +68,6 @@
 		C5A4FDF8B49592004C99B47E8891BEF8 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F7E03222B0E1A301CE271A67258E82 /* AFHTTPSessionManager.m */; };
 		CC35E4C2659467AE435F82B36AF75CA2 /* BRResultModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 705E82B5D6CDA368DF006D28DFB25FB2 /* BRResultModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D49316F7C97BDAE2DA2FA018110FF0C7 /* BRPickerViewMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 21D8C5247123C000315252B248116742 /* BRPickerViewMacro.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D5933A73740C2E5E33FF99020C97F113 /* Pods-ReadingManagementTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C63DF545C3BBD4131E25406F3FAC7299 /* Pods-ReadingManagementTests-dummy.m */; };
 		D99EE9D94FF026B874D0A975D8620524 /* BRTextPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = DF0FCDFF850827CAA103DE6156BFAAA0 /* BRTextPickerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DCA3A5E5F31F271A9BC9396903016285 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D98F54A46870E9438BD426C8C530BEE /* MASConstraintMaker.m */; };
 		DEFC87B22FED751462873DCE15615F0C /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C51E2846D096928277584D3755098016 /* AFNetworking-dummy.m */; };
@@ -77,18 +75,27 @@
 		E19C33F70477E5F78251F4931B44AC53 /* BRAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD23395DB76F9F82D5766AB7CB2FACCF /* BRAddressPickerView.m */; };
 		E70D4E1B248BA2D2CD843A6E7AED2BB2 /* BRPickerStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7704D0E170D8984A73214CAD5D0082EA /* BRPickerStyle.m */; };
 		E80CC480BD83943167F292925368DDDF /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D6BA565FC28F12E88B7673EB6343372 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F02085B6044D00D298A991C318171F9A /* Pods-DogWalkingArtifactTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCA784369F45917338A48F7A45CF984 /* Pods-DogWalkingArtifactTests-dummy.m */; };
 		F767D8CFF1300CF978A99390C53CB60F /* BRBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F837787BFC63F784C1FE89771984AA5 /* BRBaseView.m */; };
+		F90576AC98529F7D0B8AA9A4285E152A /* Pods-DogWalkingArtifact-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 255EB7411DF8CB140850DD89FE96B04A /* Pods-DogWalkingArtifact-dummy.m */; };
 		FE6A18163CA945194F2B448099565AE3 /* NSDate+BRPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59324EB903F2E04E9A483049C11ED90D /* NSDate+BRPickerView.m */; };
 		FF550A409C545A65B77AA5259CAA005B /* BRAddressModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 843707000963507B0F5AF14029D6E9AE /* BRAddressModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		14C4C4BDD976FB693BA42AEBF0EEFEA7 /* PBXContainerItemProxy */ = {
+		07C40DCA3FF5DB1D28724852D50F1A0D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
-			remoteInfo = AFNetworking;
+			remoteGlobalIDString = 0F26D484DEF0F48F14EF2CAE2A4B87F6;
+			remoteInfo = "Pods-DogWalkingArtifact";
+		};
+		1209D219E1E1BC8F1E03304C54D0AF1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D505645C3F99EB1E8B6529D64D2C3E1C;
+			remoteInfo = BRPickerView;
 		};
 		233065DD726B25572B58981873031E40 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -97,51 +104,45 @@
 			remoteGlobalIDString = 941104F296513E17138328984384286C;
 			remoteInfo = "BRPickerView-BRPickerView.Privacy";
 		};
-		45551056A09FD1CB499A2E0CAF7C1AEC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D505645C3F99EB1E8B6529D64D2C3E1C;
-			remoteInfo = BRPickerView;
-		};
-		54B7AD8F68B163C9FEABF7CE3D128BFF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
-			remoteInfo = Masonry;
-		};
-		D10723335EF0A7B4DA9F7A93F2C44578 /* PBXContainerItemProxy */ = {
+		9817FB0332C91839B7DEAC61B1F1C54F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
 			remoteInfo = AFNetworking;
 		};
-		D522E5A5E0C128DAF330BD748412621F /* PBXContainerItemProxy */ = {
+		B8EF4F8C68DB3FD2D3681B7361D32EBB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
 			remoteInfo = Masonry;
 		};
-		F7F62B9814794452CEDC2F85C25B551B /* PBXContainerItemProxy */ = {
+		BC6FFE5DF8959BA4F17EDDA9B1B189BD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3DF983C1A8BF8D14CB9C58717D1F098B;
-			remoteInfo = "Pods-ReadingManagement";
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
 		};
-		FF1FC166D36118B35E0BC485518768F7 /* PBXContainerItemProxy */ = {
+		EB5C28C7684BC865E10F0D79859C9396 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D505645C3F99EB1E8B6529D64D2C3E1C;
 			remoteInfo = BRPickerView;
 		};
+		F42D4A2BA3D669CDC6901D5C1C60819F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
+			remoteInfo = AFNetworking;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		019393EF21CB7A5EF0126D6A1FE40197 /* Pods-DogWalkingArtifact.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DogWalkingArtifact.release.xcconfig"; sourceTree = "<group>"; };
 		04E6163EDDC38AC4C7C7EEC3CCAA4E90 /* BRPickerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BRPickerView.debug.xcconfig; sourceTree = "<group>"; };
 		08A51144E76C974826A7E199D72522C8 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
 		0C14CA3293F250F9415AD4840CC688C0 /* NSBundle+BRPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+BRPickerView.m"; path = "BRPickerView/Core/NSBundle+BRPickerView.m"; sourceTree = "<group>"; };
@@ -149,30 +150,30 @@
 		0E6104B2721D7D95B6335404616BF726 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		132C7CCB9993A615DEB7C358931B2FF1 /* NSDate+BRPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+BRPickerView.h"; path = "BRPickerView/DatePicker/NSDate+BRPickerView.h"; sourceTree = "<group>"; };
 		137842CA8919280DD90B90F1904E1DCE /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
-		175EBD466B188E93A063230A60F8B6C8 /* Pods-ReadingManagementTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReadingManagementTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		18BD4BE4672C134DD8ACA63634958E4E /* Pods-DogWalkingArtifactTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DogWalkingArtifactTests.debug.xcconfig"; sourceTree = "<group>"; };
 		18EE9DFE987358976BA54C5082A66909 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		1927641EB4D339955EAA2147A215CBF7 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		1B16AA816872DBEF464847F1876C9276 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		1B6B600DB840B45703F363C9597829C1 /* Pods-DogWalkingArtifact-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DogWalkingArtifact-resources.sh"; sourceTree = "<group>"; };
 		1CD856442D096CB25AC5F329493D8A31 /* ResourceBundle-BRPickerView.Privacy-BRPickerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BRPickerView.Privacy-BRPickerView-Info.plist"; sourceTree = "<group>"; };
 		1FFED36A657123030ABB700256D73F15 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		21CF53FF29C7808018A4AEBB191D8183 /* Pods-ReadingManagement-ReadingManagementUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReadingManagement-ReadingManagementUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		21D8C5247123C000315252B248116742 /* BRPickerViewMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRPickerViewMacro.h; path = BRPickerView/Core/BRPickerViewMacro.h; sourceTree = "<group>"; };
-		21DA4F9E7EFFDBA41501843811931B11 /* Pods-ReadingManagement-ReadingManagementUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReadingManagement-ReadingManagementUITests.release.xcconfig"; sourceTree = "<group>"; };
-		22AFA7CD844B733BCC6983C868C2C718 /* Pods-ReadingManagement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReadingManagement.release.xcconfig"; sourceTree = "<group>"; };
+		22D4AE01F0D89D2D57B43D99EEB05500 /* Pods-DogWalkingArtifact.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DogWalkingArtifact.debug.xcconfig"; sourceTree = "<group>"; };
 		2312FDCE65E4322DF0EF3E9A356CAC44 /* BRPickerAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRPickerAlertView.m; path = BRPickerView/Core/BRPickerAlertView.m; sourceTree = "<group>"; };
 		23F7E03222B0E1A301CE271A67258E82 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
 		244C51A82C1828B9AE80FA49AA342DCC /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
-		2476FD670DD813E827323F5EF14FCB7D /* Pods-ReadingManagementTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReadingManagementTests.release.xcconfig"; sourceTree = "<group>"; };
 		24F459F56321BE0960BFDBA8F6C1D234 /* BRStringPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRStringPickerView.m; path = BRPickerView/Deprecated/StringPickerView/BRStringPickerView.m; sourceTree = "<group>"; };
+		255EB7411DF8CB140850DD89FE96B04A /* Pods-DogWalkingArtifact-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DogWalkingArtifact-dummy.m"; sourceTree = "<group>"; };
 		267F2093FA74D1B3A4A950246153B0B7 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
 		2A075899202E82EE3A8B97483CFEAF02 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		2E37B34D48510061010E6254CDCD0BC0 /* BRTextPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRTextPickerView.m; path = BRPickerView/TextPicker/BRTextPickerView.m; sourceTree = "<group>"; };
 		31E9C9EE149BCF08634B3FC14A7BC4AF /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		331CD3BB8C30C891A5DE4C1F4938FB77 /* Pods-ReadingManagement-ReadingManagementUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReadingManagement-ReadingManagementUITests-dummy.m"; sourceTree = "<group>"; };
 		363A6638B01570D5BD292C743B682B65 /* BRStringPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRStringPickerView.h; path = BRPickerView/Deprecated/StringPickerView/BRStringPickerView.h; sourceTree = "<group>"; };
 		39AA5CA22C80701C11472F7E10DC03B2 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		3C4FB5EC65DEFDF0722D4A4C24CC745D /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
 		3F837787BFC63F784C1FE89771984AA5 /* BRBaseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRBaseView.m; path = BRPickerView/Deprecated/Base/BRBaseView.m; sourceTree = "<group>"; };
+		3FF6F03321AEE4631F7057C2A9AF2E8D /* Pods-DogWalkingArtifactTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DogWalkingArtifactTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		44268B175F0E4C278E60B8B144A6F646 /* Pods-DogWalkingArtifact-DogWalkingArtifactUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DogWalkingArtifact-DogWalkingArtifactUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		44EF973ACCEA0D81F2C38B7D168E8C6B /* BRDatePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRDatePickerView.m; path = BRPickerView/DatePicker/BRDatePickerView.m; sourceTree = "<group>"; };
 		4E100600320FF3910013B3E38DC71FDE /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		4EDF2E1DC1F3A51C030582BBF872403A /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
@@ -183,59 +184,59 @@
 		5BA6046B4C2674409C0D5625F45F8769 /* libBRPickerView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libBRPickerView.a; path = libBRPickerView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C4588F644DAAE129E2597F50D672FDB /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		5D074DDD78068DB3772CDD597AC9DEF1 /* BRResultModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRResultModel.m; path = BRPickerView/Deprecated/StringPickerView/BRResultModel.m; sourceTree = "<group>"; };
+		5DBEA859D4559D59407123183EB22E27 /* Pods-DogWalkingArtifactTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DogWalkingArtifactTests.release.xcconfig"; sourceTree = "<group>"; };
 		62E7AA177597F94686FA1E5DF3852902 /* BRPickerStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRPickerStyle.h; path = BRPickerView/Core/BRPickerStyle.h; sourceTree = "<group>"; };
 		67198019AAE2AA7C670D4622FB10F70A /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		684F5EF62B9ADE890C07EE309370CD75 /* AFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.debug.xcconfig; sourceTree = "<group>"; };
-		68566680766BF44F360FDBB3216C715C /* libPods-ReadingManagementTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ReadingManagementTests.a"; path = "libPods-ReadingManagementTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B4FCB3B304B761A7F98799841A1CA01 /* Pods-DogWalkingArtifact-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DogWalkingArtifact-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6D6BA565FC28F12E88B7673EB6343372 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
 		6FB643BBFF039D8655AE812CF2DB8AC2 /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
 		7006A9946CC59618802D04E258E16BC1 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		705E82B5D6CDA368DF006D28DFB25FB2 /* BRResultModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRResultModel.h; path = BRPickerView/Deprecated/StringPickerView/BRResultModel.h; sourceTree = "<group>"; };
 		712D883894EF220C90150A066C3B243D /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		7275D7145CF128C27FBD7F280971EF36 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		737F38FE8662B5A5667F83C6EDA303FA /* libPods-DogWalkingArtifactTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DogWalkingArtifactTests.a"; path = "libPods-DogWalkingArtifactTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7704D0E170D8984A73214CAD5D0082EA /* BRPickerStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRPickerStyle.m; path = BRPickerView/Core/BRPickerStyle.m; sourceTree = "<group>"; };
 		77CA1310F8ADCC8E8FA0F7B7CB3C0342 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		7F5D316C0151887B4C4169C35A4C6655 /* libPods-ReadingManagement.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ReadingManagement.a"; path = "libPods-ReadingManagement.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A87184C155B6E161FCFB36BF9DE404D /* libPods-DogWalkingArtifact-DogWalkingArtifactUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DogWalkingArtifact-DogWalkingArtifactUITests.a"; path = "libPods-DogWalkingArtifact-DogWalkingArtifactUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4FDBE83556C17DD80F346AC442F0ED /* Pods-DogWalkingArtifact-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DogWalkingArtifact-acknowledgements.plist"; sourceTree = "<group>"; };
 		81935D1420E2E72B5CBD44CE972979B8 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		836CBD70EBEB31ED13363665DDE4A058 /* Pods-DogWalkingArtifactTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DogWalkingArtifactTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		843707000963507B0F5AF14029D6E9AE /* BRAddressModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRAddressModel.h; path = BRPickerView/Deprecated/AddressPickerView/BRAddressModel.h; sourceTree = "<group>"; };
 		855232A1EC2DD6D46D56EBA4E81528BD /* BRAddressPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRAddressPickerView.h; path = BRPickerView/Deprecated/AddressPickerView/BRAddressPickerView.h; sourceTree = "<group>"; };
 		8AB046A9630248FAC1C2795BA78AE2C1 /* NSBundle+BRPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+BRPickerView.h"; path = "BRPickerView/Core/NSBundle+BRPickerView.h"; sourceTree = "<group>"; };
 		8C8C643704696C508ACB5DEA005E5ED6 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		8CCA784369F45917338A48F7A45CF984 /* Pods-DogWalkingArtifactTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DogWalkingArtifactTests-dummy.m"; sourceTree = "<group>"; };
 		8D070ED9766A2CCD65BC6D9956708FF0 /* BRTextModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRTextModel.m; path = BRPickerView/TextPicker/BRTextModel.m; sourceTree = "<group>"; };
-		8D57CA30D9470C8CA7DA23D76B4A8A45 /* Pods-ReadingManagement-ReadingManagementUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReadingManagement-ReadingManagementUITests-resources.sh"; sourceTree = "<group>"; };
 		8D98F54A46870E9438BD426C8C530BEE /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		8E505F697CD0C14B17FE06C9EA0EA495 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
 		97DD0B510C1DEE686096797343D03E3C /* BRPickerView.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BRPickerView.bundle; path = BRPickerView/Core/BRPickerView.bundle; sourceTree = "<group>"; };
 		9A5E50618695B633EAA0D93A1D5AD927 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
 		9B2BD7F50FB7D2D17147FF91F75BD8F4 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		9D597E16F01747CAC9EB57B4E852A49F /* Pods-ReadingManagement-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReadingManagement-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EA9522B2625546F3A9A956DBE22536F /* Pods-DogWalkingArtifact-DogWalkingArtifactUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DogWalkingArtifact-DogWalkingArtifactUITests-dummy.m"; sourceTree = "<group>"; };
+		9F48C84BABEC413421B1D8EB1B0E4CF7 /* Pods-DogWalkingArtifact-DogWalkingArtifactUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DogWalkingArtifact-DogWalkingArtifactUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A1992649B2B5A77F20809CED4F4D9553 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		A4FA15D44DF6BAC7550EDEED10862AA3 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFNetworking.a; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A52FE0446AEF6F4B06C796BF28CB8BAB /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		A56452E5FDCB6361FAB114B9B49F6D66 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		A58044F80D5329E7E8F9503F3D314246 /* Pods-ReadingManagement-ReadingManagementUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReadingManagement-ReadingManagementUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A75043DC8E3BE0AE4F44D12950B7BADA /* Pods-DogWalkingArtifact-DogWalkingArtifactUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DogWalkingArtifact-DogWalkingArtifactUITests-resources.sh"; sourceTree = "<group>"; };
 		ADB66AE6171FEF4E62CD7F0E44915906 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		AE3F6FD3DF7E2ED7F98EC59ACAEABCEB /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		AEBCC03B51E6EF51BB4756E57C94DB2F /* BRPickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BRPickerView-dummy.m"; sourceTree = "<group>"; };
-		B0007FB6ED921B0C50E73D7E1DC94FDF /* libPods-ReadingManagement-ReadingManagementUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ReadingManagement-ReadingManagementUITests.a"; path = "libPods-ReadingManagement-ReadingManagementUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0E77FF376D9ACBF2150798D1E406A4E /* Pods-ReadingManagementTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReadingManagementTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B30BB8DF9CBB5E873F329F0F2D61D61D /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		B5786D7DC0F4D5F19C5C3E4160C54D30 /* BRPickerView.Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = BRPickerView.Privacy.bundle; path = "BRPickerView-BRPickerView.Privacy.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B776133F529D6E13612E124690C70393 /* BRAddressPickerView.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BRAddressPickerView.bundle; path = BRPickerView/Deprecated/AddressPickerView/BRAddressPickerView.bundle; sourceTree = "<group>"; };
 		B7E08C11ECBAD7CFA770C57C2055AC7B /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		BC1227BAA588FF03FEBB6902C350280A /* Pods-DogWalkingArtifact-DogWalkingArtifactUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DogWalkingArtifact-DogWalkingArtifactUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BCAEBC47C3E2DD825E10600349F81333 /* BRPickerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BRPickerView-prefix.pch"; sourceTree = "<group>"; };
-		C26493A9CD4105FF860343E954FFDAE8 /* Pods-ReadingManagementTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReadingManagementTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C51E2846D096928277584D3755098016 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
-		C63DF545C3BBD4131E25406F3FAC7299 /* Pods-ReadingManagementTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReadingManagementTests-dummy.m"; sourceTree = "<group>"; };
-		C75FF59FA3C35791F0E8E20857421AC5 /* Pods-ReadingManagement-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReadingManagement-acknowledgements.plist"; sourceTree = "<group>"; };
-		C8C88A9E3E98A74738A855FC0178E47C /* Pods-ReadingManagement-ReadingManagementUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReadingManagement-ReadingManagementUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CAD688F9ED9B7F8285310E1193CC2DA0 /* Pods-ReadingManagement-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReadingManagement-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CCB4F3C9F6BCC68B089DDA3ADCDA4DE0 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
 		D13647387F577FEA2AEAE8E63E571A63 /* BRDatePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRDatePickerView.h; path = BRPickerView/DatePicker/BRDatePickerView.h; sourceTree = "<group>"; };
-		D50AE0040686E6B2E0DC82E3468FFE77 /* Pods-ReadingManagement-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReadingManagement-resources.sh"; sourceTree = "<group>"; };
 		D5609817ABC86846AAEA9C2305BC9C58 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		D578D56D3E180DF189B4B83288EE2518 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		D696EDB200BE96C2E607C13580C4F91A /* libPods-DogWalkingArtifact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DogWalkingArtifact.a"; path = "libPods-DogWalkingArtifact.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D764D50EE81740F036D0373B5579BD9B /* Pods-DogWalkingArtifact-DogWalkingArtifactUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DogWalkingArtifact-DogWalkingArtifactUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DAC064C435D272854EE5B664926E4889 /* BRDatePickerView+BR.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BRDatePickerView+BR.h"; path = "BRPickerView/DatePicker/BRDatePickerView+BR.h"; sourceTree = "<group>"; };
 		DD23395DB76F9F82D5766AB7CB2FACCF /* BRAddressPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRAddressPickerView.m; path = BRPickerView/Deprecated/AddressPickerView/BRAddressPickerView.m; sourceTree = "<group>"; };
 		DF0FCDFF850827CAA103DE6156BFAAA0 /* BRTextPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRTextPickerView.h; path = BRPickerView/TextPicker/BRTextPickerView.h; sourceTree = "<group>"; };
@@ -246,20 +247,19 @@
 		E98153611130DF6516ABCD7CC8201662 /* BRPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRPickerView.h; path = BRPickerView/BRPickerView.h; sourceTree = "<group>"; };
 		EB0E51B62C91C88730B13F790DDC4979 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		EDE47980368FC5430FDA167A1C806501 /* BRTextModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRTextModel.h; path = BRPickerView/TextPicker/BRTextModel.h; sourceTree = "<group>"; };
-		EE7F9102F20D774D99FD7C03C9C062D5 /* Pods-ReadingManagement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReadingManagement.debug.xcconfig"; sourceTree = "<group>"; };
 		F4F4A4A3A6F2A0439045C2EA0F822E77 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
 		F78C2C6043EAF3A1AEA7BEA47F82AB77 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = BRPickerView/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		519EAF1D0643E226548530F1C2AB01E1 /* Frameworks */ = {
+		68ADEB11FEE4720B42FE30CC7574AABE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68ADEB11FEE4720B42FE30CC7574AABE /* Frameworks */ = {
+		79EF15A874C5EF6340EAF1132AA650F9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -280,7 +280,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C71F2F01D319348F511F9436C6FC34BB /* Frameworks */ = {
+		BD76391F996847E64839C8B7221D5DF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5985B08A25F1CD2E9403E8FA17837E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -288,13 +295,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D6D37FE9D3D148D4038779A68A274FAF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F578B59FF2A253C387AF1F0BDC9C64D3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -405,34 +405,6 @@
 			path = "../Target Support Files/AFNetworking";
 			sourceTree = "<group>";
 		};
-		562A4FE50F1A986EC5F2B2B5001D339C /* Pods-ReadingManagement */ = {
-			isa = PBXGroup;
-			children = (
-				CAD688F9ED9B7F8285310E1193CC2DA0 /* Pods-ReadingManagement-acknowledgements.markdown */,
-				C75FF59FA3C35791F0E8E20857421AC5 /* Pods-ReadingManagement-acknowledgements.plist */,
-				9D597E16F01747CAC9EB57B4E852A49F /* Pods-ReadingManagement-dummy.m */,
-				D50AE0040686E6B2E0DC82E3468FFE77 /* Pods-ReadingManagement-resources.sh */,
-				EE7F9102F20D774D99FD7C03C9C062D5 /* Pods-ReadingManagement.debug.xcconfig */,
-				22AFA7CD844B733BCC6983C868C2C718 /* Pods-ReadingManagement.release.xcconfig */,
-			);
-			name = "Pods-ReadingManagement";
-			path = "Target Support Files/Pods-ReadingManagement";
-			sourceTree = "<group>";
-		};
-		5814DFDF496622070CB98D3E18757EF4 /* Pods-ReadingManagement-ReadingManagementUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C8C88A9E3E98A74738A855FC0178E47C /* Pods-ReadingManagement-ReadingManagementUITests-acknowledgements.markdown */,
-				A58044F80D5329E7E8F9503F3D314246 /* Pods-ReadingManagement-ReadingManagementUITests-acknowledgements.plist */,
-				331CD3BB8C30C891A5DE4C1F4938FB77 /* Pods-ReadingManagement-ReadingManagementUITests-dummy.m */,
-				8D57CA30D9470C8CA7DA23D76B4A8A45 /* Pods-ReadingManagement-ReadingManagementUITests-resources.sh */,
-				21CF53FF29C7808018A4AEBB191D8183 /* Pods-ReadingManagement-ReadingManagementUITests.debug.xcconfig */,
-				21DA4F9E7EFFDBA41501843811931B11 /* Pods-ReadingManagement-ReadingManagementUITests.release.xcconfig */,
-			);
-			name = "Pods-ReadingManagement-ReadingManagementUITests";
-			path = "Target Support Files/Pods-ReadingManagement-ReadingManagementUITests";
-			sourceTree = "<group>";
-		};
 		5D7002EBB596E13659E656B75A766781 /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
@@ -467,31 +439,18 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
-		5FA3C7E2C0D24352F23E1C48BC4DC6EC /* Products */ = {
+		6635EB95795705F4CC93B783479B174E /* Pods-DogWalkingArtifact-DogWalkingArtifactUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B5786D7DC0F4D5F19C5C3E4160C54D30 /* BRPickerView.Privacy.bundle */,
-				A4FA15D44DF6BAC7550EDEED10862AA3 /* libAFNetworking.a */,
-				5BA6046B4C2674409C0D5625F45F8769 /* libBRPickerView.a */,
-				1FFED36A657123030ABB700256D73F15 /* libMasonry.a */,
-				7F5D316C0151887B4C4169C35A4C6655 /* libPods-ReadingManagement.a */,
-				B0007FB6ED921B0C50E73D7E1DC94FDF /* libPods-ReadingManagement-ReadingManagementUITests.a */,
-				68566680766BF44F360FDBB3216C715C /* libPods-ReadingManagementTests.a */,
+				9F48C84BABEC413421B1D8EB1B0E4CF7 /* Pods-DogWalkingArtifact-DogWalkingArtifactUITests-acknowledgements.markdown */,
+				D764D50EE81740F036D0373B5579BD9B /* Pods-DogWalkingArtifact-DogWalkingArtifactUITests-acknowledgements.plist */,
+				9EA9522B2625546F3A9A956DBE22536F /* Pods-DogWalkingArtifact-DogWalkingArtifactUITests-dummy.m */,
+				A75043DC8E3BE0AE4F44D12950B7BADA /* Pods-DogWalkingArtifact-DogWalkingArtifactUITests-resources.sh */,
+				44268B175F0E4C278E60B8B144A6F646 /* Pods-DogWalkingArtifact-DogWalkingArtifactUITests.debug.xcconfig */,
+				BC1227BAA588FF03FEBB6902C350280A /* Pods-DogWalkingArtifact-DogWalkingArtifactUITests.release.xcconfig */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		69BAA8B8FDD48E2C7ADF6D7DA50CB0D8 /* Pods-ReadingManagementTests */ = {
-			isa = PBXGroup;
-			children = (
-				175EBD466B188E93A063230A60F8B6C8 /* Pods-ReadingManagementTests-acknowledgements.markdown */,
-				B0E77FF376D9ACBF2150798D1E406A4E /* Pods-ReadingManagementTests-acknowledgements.plist */,
-				C63DF545C3BBD4131E25406F3FAC7299 /* Pods-ReadingManagementTests-dummy.m */,
-				C26493A9CD4105FF860343E954FFDAE8 /* Pods-ReadingManagementTests.debug.xcconfig */,
-				2476FD670DD813E827323F5EF14FCB7D /* Pods-ReadingManagementTests.release.xcconfig */,
-			);
-			name = "Pods-ReadingManagementTests";
-			path = "Target Support Files/Pods-ReadingManagementTests";
+			name = "Pods-DogWalkingArtifact-DogWalkingArtifactUITests";
+			path = "Target Support Files/Pods-DogWalkingArtifact-DogWalkingArtifactUITests";
 			sourceTree = "<group>";
 		};
 		6E7668C0C271F8B6BADE0D3DF0144759 /* Resources */ = {
@@ -565,6 +524,20 @@
 			name = Serialization;
 			sourceTree = "<group>";
 		};
+		8F28EE091FB9E6078D4AFE5DF39224F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5786D7DC0F4D5F19C5C3E4160C54D30 /* BRPickerView.Privacy.bundle */,
+				A4FA15D44DF6BAC7550EDEED10862AA3 /* libAFNetworking.a */,
+				5BA6046B4C2674409C0D5625F45F8769 /* libBRPickerView.a */,
+				1FFED36A657123030ABB700256D73F15 /* libMasonry.a */,
+				D696EDB200BE96C2E607C13580C4F91A /* libPods-DogWalkingArtifact.a */,
+				7A87184C155B6E161FCFB36BF9DE404D /* libPods-DogWalkingArtifact-DogWalkingArtifactUITests.a */,
+				737F38FE8662B5A5667F83C6EDA303FA /* libPods-DogWalkingArtifactTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		9B400C0F48D1B009AAE7DFCC30F13796 /* DatePicker */ = {
 			isa = PBXGroup;
 			children = (
@@ -587,6 +560,19 @@
 			name = Base;
 			sourceTree = "<group>";
 		};
+		B49D066AB54C1D81E31D7243118EEC8E /* Pods-DogWalkingArtifactTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FF6F03321AEE4631F7057C2A9AF2E8D /* Pods-DogWalkingArtifactTests-acknowledgements.markdown */,
+				836CBD70EBEB31ED13363665DDE4A058 /* Pods-DogWalkingArtifactTests-acknowledgements.plist */,
+				8CCA784369F45917338A48F7A45CF984 /* Pods-DogWalkingArtifactTests-dummy.m */,
+				18BD4BE4672C134DD8ACA63634958E4E /* Pods-DogWalkingArtifactTests.debug.xcconfig */,
+				5DBEA859D4559D59407123183EB22E27 /* Pods-DogWalkingArtifactTests.release.xcconfig */,
+			);
+			name = "Pods-DogWalkingArtifactTests";
+			path = "Target Support Files/Pods-DogWalkingArtifactTests";
+			sourceTree = "<group>";
+		};
 		B8C0597974CD28CC934016BFA73B840A /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
@@ -596,14 +582,28 @@
 			name = Reachability;
 			sourceTree = "<group>";
 		};
+		C70B9AB9DFC59E48AC3D1D018656B564 /* Pods-DogWalkingArtifact */ = {
+			isa = PBXGroup;
+			children = (
+				6B4FCB3B304B761A7F98799841A1CA01 /* Pods-DogWalkingArtifact-acknowledgements.markdown */,
+				7E4FDBE83556C17DD80F346AC442F0ED /* Pods-DogWalkingArtifact-acknowledgements.plist */,
+				255EB7411DF8CB140850DD89FE96B04A /* Pods-DogWalkingArtifact-dummy.m */,
+				1B6B600DB840B45703F363C9597829C1 /* Pods-DogWalkingArtifact-resources.sh */,
+				22D4AE01F0D89D2D57B43D99EEB05500 /* Pods-DogWalkingArtifact.debug.xcconfig */,
+				019393EF21CB7A5EF0126D6A1FE40197 /* Pods-DogWalkingArtifact.release.xcconfig */,
+			);
+			name = "Pods-DogWalkingArtifact";
+			path = "Target Support Files/Pods-DogWalkingArtifact";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				4C6571EED794F01ED948A2045F694A61 /* Pods */,
-				5FA3C7E2C0D24352F23E1C48BC4DC6EC /* Products */,
-				EDFC424D185C630EAD0691E6C23484CC /* Targets Support Files */,
+				8F28EE091FB9E6078D4AFE5DF39224F8 /* Products */,
+				DF23E89D3066A7A63F1E57306BE1DAC5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -624,12 +624,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EDFC424D185C630EAD0691E6C23484CC /* Targets Support Files */ = {
+		DF23E89D3066A7A63F1E57306BE1DAC5 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				562A4FE50F1A986EC5F2B2B5001D339C /* Pods-ReadingManagement */,
-				5814DFDF496622070CB98D3E18757EF4 /* Pods-ReadingManagement-ReadingManagementUITests */,
-				69BAA8B8FDD48E2C7ADF6D7DA50CB0D8 /* Pods-ReadingManagementTests */,
+				C70B9AB9DFC59E48AC3D1D018656B564 /* Pods-DogWalkingArtifact */,
+				6635EB95795705F4CC93B783479B174E /* Pods-DogWalkingArtifact-DogWalkingArtifactUITests */,
+				B49D066AB54C1D81E31D7243118EEC8E /* Pods-DogWalkingArtifactTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -645,13 +645,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		083CC7D533876F496623D3D4F1E66F71 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0C6A18E81B85D657E84AC38E8F2F26E9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -666,7 +659,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		45A3568EEECECE9EC1F70A525F4422D2 /* Headers */ = {
+		3185101A089064C74034A4B6FBDBDB41 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -695,6 +688,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8B5E4D298D039B6D3FAD12177E7FFC6A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D45AA58395855A699E31148CA390387E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -717,7 +717,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E307F9058E29341EDF7FDA6C432F24E5 /* Headers */ = {
+		E5061B598D61CC082070000A2726ADD9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -744,44 +744,62 @@
 			productReference = A4FA15D44DF6BAC7550EDEED10862AA3 /* libAFNetworking.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		3DF983C1A8BF8D14CB9C58717D1F098B /* Pods-ReadingManagement */ = {
+		0F26D484DEF0F48F14EF2CAE2A4B87F6 /* Pods-DogWalkingArtifact */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0AB9EE97E5D8E0F7086C105FAEF2FBA3 /* Build configuration list for PBXNativeTarget "Pods-ReadingManagement" */;
+			buildConfigurationList = FDC1F4C259302078D0EE36DD17E915CA /* Build configuration list for PBXNativeTarget "Pods-DogWalkingArtifact" */;
 			buildPhases = (
-				083CC7D533876F496623D3D4F1E66F71 /* Headers */,
-				C7C55DEA7C23955C95E910B2002E7318 /* Sources */,
-				519EAF1D0643E226548530F1C2AB01E1 /* Frameworks */,
+				E5061B598D61CC082070000A2726ADD9 /* Headers */,
+				53E2E7E926CAB6CE25EF16B08F14B52A /* Sources */,
+				79EF15A874C5EF6340EAF1132AA650F9 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8C63CCC376DBB2141F768AE18A008F43 /* PBXTargetDependency */,
-				3EF347A66ECC1D2461387C55B6CB230E /* PBXTargetDependency */,
-				08B208704E288F084C8C1DBED6578A6A /* PBXTargetDependency */,
+				60C8EBECB8D08ABDC58AEDD3FDF14C57 /* PBXTargetDependency */,
+				8A40971DC89278B5C638A7EA6528C59C /* PBXTargetDependency */,
+				633C6EAA89F76CAD69D38B70A1F2C205 /* PBXTargetDependency */,
 			);
-			name = "Pods-ReadingManagement";
-			productName = "Pods-ReadingManagement";
-			productReference = 7F5D316C0151887B4C4169C35A4C6655 /* libPods-ReadingManagement.a */;
+			name = "Pods-DogWalkingArtifact";
+			productName = "Pods-DogWalkingArtifact";
+			productReference = D696EDB200BE96C2E607C13580C4F91A /* libPods-DogWalkingArtifact.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		4F4BA11C8E89DF1253193477BACA59A6 /* Pods-ReadingManagement-ReadingManagementUITests */ = {
+		3D1D7110A4EFF5BDCDC565F88E5FCCE5 /* Pods-DogWalkingArtifactTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A4A965843F35C2FA52FB9DE77164CA9 /* Build configuration list for PBXNativeTarget "Pods-ReadingManagement-ReadingManagementUITests" */;
+			buildConfigurationList = F406889BFF0437A7AA090BF7A82A02F5 /* Build configuration list for PBXNativeTarget "Pods-DogWalkingArtifactTests" */;
 			buildPhases = (
-				45A3568EEECECE9EC1F70A525F4422D2 /* Headers */,
-				7191531EA5FB1BEAF47CFFE1BDB93F24 /* Sources */,
-				C71F2F01D319348F511F9436C6FC34BB /* Frameworks */,
+				3185101A089064C74034A4B6FBDBDB41 /* Headers */,
+				D7A5D11C4DCD99A687E11F5DD3DF1FE6 /* Sources */,
+				BD76391F996847E64839C8B7221D5DF1 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8FA308F7F26E0215C5BE2B50C2993ED1 /* PBXTargetDependency */,
-				C4E65E7AAE579F3AA27C527561E475D3 /* PBXTargetDependency */,
-				76FD70EE8ACBF3A59672ADA7E4C9A392 /* PBXTargetDependency */,
+				67BCDF4C9EB4B97732DA9931608BD9A5 /* PBXTargetDependency */,
 			);
-			name = "Pods-ReadingManagement-ReadingManagementUITests";
-			productName = "Pods-ReadingManagement-ReadingManagementUITests";
-			productReference = B0007FB6ED921B0C50E73D7E1DC94FDF /* libPods-ReadingManagement-ReadingManagementUITests.a */;
+			name = "Pods-DogWalkingArtifactTests";
+			productName = "Pods-DogWalkingArtifactTests";
+			productReference = 737F38FE8662B5A5667F83C6EDA303FA /* libPods-DogWalkingArtifactTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		44981B5690B63DE005A8373BC4483C86 /* Pods-DogWalkingArtifact-DogWalkingArtifactUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBE7E50A1E03E913D22ACBD48770A4BC /* Build configuration list for PBXNativeTarget "Pods-DogWalkingArtifact-DogWalkingArtifactUITests" */;
+			buildPhases = (
+				8B5E4D298D039B6D3FAD12177E7FFC6A /* Headers */,
+				F2B7628A155A4E813D194C32ABC8BD5D /* Sources */,
+				CE5985B08A25F1CD2E9403E8FA17837E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				951EDD249266F795FE114F920F4C4843 /* PBXTargetDependency */,
+				4875456C701E8D5F02824E57649A05CE /* PBXTargetDependency */,
+				82207F11C32620EDF9992F11E73C1ABE /* PBXTargetDependency */,
+			);
+			name = "Pods-DogWalkingArtifact-DogWalkingArtifactUITests";
+			productName = "Pods-DogWalkingArtifact-DogWalkingArtifactUITests";
+			productReference = 7A87184C155B6E161FCFB36BF9DE404D /* libPods-DogWalkingArtifact-DogWalkingArtifactUITests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
@@ -817,24 +835,6 @@
 			productName = "BRPickerView-BRPickerView.Privacy";
 			productReference = B5786D7DC0F4D5F19C5C3E4160C54D30 /* BRPickerView.Privacy.bundle */;
 			productType = "com.apple.product-type.bundle";
-		};
-		999ADE26C7814A60E315DFE3A9CC6ED6 /* Pods-ReadingManagementTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DC1AF43BB4AA12A2CDDADC4DE2D2A5B2 /* Build configuration list for PBXNativeTarget "Pods-ReadingManagementTests" */;
-			buildPhases = (
-				E307F9058E29341EDF7FDA6C432F24E5 /* Headers */,
-				2532FF37C8A0B03252EC9B4F3FD937DF /* Sources */,
-				F578B59FF2A253C387AF1F0BDC9C64D3 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DB80FD4EC653B2B0E1960DD750BD76C2 /* PBXTargetDependency */,
-			);
-			name = "Pods-ReadingManagementTests";
-			productName = "Pods-ReadingManagementTests";
-			productReference = 68566680766BF44F360FDBB3216C715C /* libPods-ReadingManagementTests.a */;
-			productType = "com.apple.product-type.library.static";
 		};
 		D505645C3F99EB1E8B6529D64D2C3E1C /* BRPickerView */ = {
 			isa = PBXNativeTarget;
@@ -874,7 +874,7 @@
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			minimizedProjectReferenceProxies = 0;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 5FA3C7E2C0D24352F23E1C48BC4DC6EC /* Products */;
+			productRefGroup = 8F28EE091FB9E6078D4AFE5DF39224F8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -882,9 +882,9 @@
 				D505645C3F99EB1E8B6529D64D2C3E1C /* BRPickerView */,
 				941104F296513E17138328984384286C /* BRPickerView-BRPickerView.Privacy */,
 				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
-				3DF983C1A8BF8D14CB9C58717D1F098B /* Pods-ReadingManagement */,
-				4F4BA11C8E89DF1253193477BACA59A6 /* Pods-ReadingManagement-ReadingManagementUITests */,
-				999ADE26C7814A60E315DFE3A9CC6ED6 /* Pods-ReadingManagementTests */,
+				0F26D484DEF0F48F14EF2CAE2A4B87F6 /* Pods-DogWalkingArtifact */,
+				44981B5690B63DE005A8373BC4483C86 /* Pods-DogWalkingArtifact-DogWalkingArtifactUITests */,
+				3D1D7110A4EFF5BDCDC565F88E5FCCE5 /* Pods-DogWalkingArtifactTests */,
 			);
 		};
 /* End PBXProject section */
@@ -908,11 +908,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2532FF37C8A0B03252EC9B4F3FD937DF /* Sources */ = {
+		53E2E7E926CAB6CE25EF16B08F14B52A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5933A73740C2E5E33FF99020C97F113 /* Pods-ReadingManagementTests-dummy.m in Sources */,
+				F90576AC98529F7D0B8AA9A4285E152A /* Pods-DogWalkingArtifact-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -934,14 +934,6 @@
 				7F5911ECE3D32F10CD512366965D72BC /* BRTextPickerView.m in Sources */,
 				3FA06AB646FD7002829100AECF75F56D /* NSBundle+BRPickerView.m in Sources */,
 				FE6A18163CA945194F2B448099565AE3 /* NSDate+BRPickerView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7191531EA5FB1BEAF47CFFE1BDB93F24 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				214C4F12DA3DA4F243E2A18272E6B58B /* Pods-ReadingManagement-ReadingManagementUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -977,58 +969,66 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C7C55DEA7C23955C95E910B2002E7318 /* Sources */ = {
+		D7A5D11C4DCD99A687E11F5DD3DF1FE6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D217A44F1855EB5055A9DA50A092781 /* Pods-ReadingManagement-dummy.m in Sources */,
+				F02085B6044D00D298A991C318171F9A /* Pods-DogWalkingArtifactTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B7628A155A4E813D194C32ABC8BD5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46DEC7680E22818327302D6AE4C260FC /* Pods-DogWalkingArtifact-DogWalkingArtifactUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		08B208704E288F084C8C1DBED6578A6A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = 54B7AD8F68B163C9FEABF7CE3D128BFF /* PBXContainerItemProxy */;
-		};
-		3EF347A66ECC1D2461387C55B6CB230E /* PBXTargetDependency */ = {
+		4875456C701E8D5F02824E57649A05CE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BRPickerView;
 			target = D505645C3F99EB1E8B6529D64D2C3E1C /* BRPickerView */;
-			targetProxy = FF1FC166D36118B35E0BC485518768F7 /* PBXContainerItemProxy */;
+			targetProxy = 1209D219E1E1BC8F1E03304C54D0AF1C /* PBXContainerItemProxy */;
 		};
-		76FD70EE8ACBF3A59672ADA7E4C9A392 /* PBXTargetDependency */ = {
+		60C8EBECB8D08ABDC58AEDD3FDF14C57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = F42D4A2BA3D669CDC6901D5C1C60819F /* PBXContainerItemProxy */;
+		};
+		633C6EAA89F76CAD69D38B70A1F2C205 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
 			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = D522E5A5E0C128DAF330BD748412621F /* PBXContainerItemProxy */;
+			targetProxy = BC6FFE5DF8959BA4F17EDDA9B1B189BD /* PBXContainerItemProxy */;
 		};
-		8C63CCC376DBB2141F768AE18A008F43 /* PBXTargetDependency */ = {
+		67BCDF4C9EB4B97732DA9931608BD9A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = AFNetworking;
-			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = 14C4C4BDD976FB693BA42AEBF0EEFEA7 /* PBXContainerItemProxy */;
+			name = "Pods-DogWalkingArtifact";
+			target = 0F26D484DEF0F48F14EF2CAE2A4B87F6 /* Pods-DogWalkingArtifact */;
+			targetProxy = 07C40DCA3FF5DB1D28724852D50F1A0D /* PBXContainerItemProxy */;
 		};
-		8FA308F7F26E0215C5BE2B50C2993ED1 /* PBXTargetDependency */ = {
+		82207F11C32620EDF9992F11E73C1ABE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = AFNetworking;
-			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = D10723335EF0A7B4DA9F7A93F2C44578 /* PBXContainerItemProxy */;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = B8EF4F8C68DB3FD2D3681B7361D32EBB /* PBXContainerItemProxy */;
 		};
-		C4E65E7AAE579F3AA27C527561E475D3 /* PBXTargetDependency */ = {
+		8A40971DC89278B5C638A7EA6528C59C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BRPickerView;
 			target = D505645C3F99EB1E8B6529D64D2C3E1C /* BRPickerView */;
-			targetProxy = 45551056A09FD1CB499A2E0CAF7C1AEC /* PBXContainerItemProxy */;
+			targetProxy = EB5C28C7684BC865E10F0D79859C9396 /* PBXContainerItemProxy */;
 		};
-		DB80FD4EC653B2B0E1960DD750BD76C2 /* PBXTargetDependency */ = {
+		951EDD249266F795FE114F920F4C4843 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-ReadingManagement";
-			target = 3DF983C1A8BF8D14CB9C58717D1F098B /* Pods-ReadingManagement */;
-			targetProxy = F7F62B9814794452CEDC2F85C25B551B /* PBXContainerItemProxy */;
+			name = AFNetworking;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = 9817FB0332C91839B7DEAC61B1F1C54F /* PBXContainerItemProxy */;
 		};
 		DF336F8F906EEDDD462C629B2AD61834 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1123,9 +1123,9 @@
 			};
 			name = Debug;
 		};
-		207EB24F08A8605C0730793C00A3F7B7 /* Release */ = {
+		0B1B28A831B9D1DE30B9515AC5B4D770 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22AFA7CD844B733BCC6983C868C2C718 /* Pods-ReadingManagement.release.xcconfig */;
+			baseConfigurationReference = BC1227BAA588FF03FEBB6902C350280A /* Pods-DogWalkingArtifact-DogWalkingArtifactUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1144,6 +1144,27 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		2155F9758E41E42AB9AF9C2573B93E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44268B175F0E4C278E60B8B144A6F646 /* Pods-DogWalkingArtifact-DogWalkingArtifactUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		2176157C9D61E499D0538B294636FA55 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1168,9 +1189,9 @@
 			};
 			name = Release;
 		};
-		386C3CE06920ADB8E9466309B4A5263C /* Debug */ = {
+		329D3C328CBDC889C93BB0D7678FEDF9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE7F9102F20D774D99FD7C03C9C062D5 /* Pods-ReadingManagement.debug.xcconfig */;
+			baseConfigurationReference = 5DBEA859D4559D59407123183EB22E27 /* Pods-DogWalkingArtifactTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1186,12 +1207,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		3A69E27843316D07871D23DF20D2669E /* Release */ = {
+		37E0C3AB10BECB407D364D65D842A379 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2476FD670DD813E827323F5EF14FCB7D /* Pods-ReadingManagementTests.release.xcconfig */;
+			baseConfigurationReference = 019393EF21CB7A5EF0126D6A1FE40197 /* Pods-DogWalkingArtifact.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1354,31 +1376,9 @@
 			};
 			name = Debug;
 		};
-		A560394A02578CC2834269CCC00DC87A /* Release */ = {
+		A6A7D8943AA9A5639E3B76CFC2E5D0D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21DA4F9E7EFFDBA41501843811931B11 /* Pods-ReadingManagement-ReadingManagementUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		A899E987EBAEB9E0ABD8DA21500B48AF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C26493A9CD4105FF860343E954FFDAE8 /* Pods-ReadingManagementTests.debug.xcconfig */;
+			baseConfigurationReference = 22D4AE01F0D89D2D57B43D99EEB05500 /* Pods-DogWalkingArtifact.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1419,27 +1419,6 @@
 			};
 			name = Debug;
 		};
-		BBE9E70734042C9B1DA17B2F8EAFD815 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21CF53FF29C7808018A4AEBB191D8183 /* Pods-ReadingManagement-ReadingManagementUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		CB7C575D8E1D397D5D4D125C6F99E951 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6FB643BBFF039D8655AE812CF2DB8AC2 /* AFNetworking.release.xcconfig */;
@@ -1463,18 +1442,30 @@
 			};
 			name = Release;
 		};
+		CE267D777BB0FF758BE16CBAE8A45E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18BD4BE4672C134DD8ACA63634958E4E /* Pods-DogWalkingArtifactTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0AB9EE97E5D8E0F7086C105FAEF2FBA3 /* Build configuration list for PBXNativeTarget "Pods-ReadingManagement" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				386C3CE06920ADB8E9466309B4A5263C /* Debug */,
-				207EB24F08A8605C0730793C00A3F7B7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		13F6F48ACD505AF086F91AD90843DE2D /* Build configuration list for PBXNativeTarget "BRPickerView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1502,15 +1493,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A4A965843F35C2FA52FB9DE77164CA9 /* Build configuration list for PBXNativeTarget "Pods-ReadingManagement-ReadingManagementUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BBE9E70734042C9B1DA17B2F8EAFD815 /* Debug */,
-				A560394A02578CC2834269CCC00DC87A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		C1D8E2B633864EF372199713EED35FE9 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1520,11 +1502,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC1AF43BB4AA12A2CDDADC4DE2D2A5B2 /* Build configuration list for PBXNativeTarget "Pods-ReadingManagementTests" */ = {
+		CBE7E50A1E03E913D22ACBD48770A4BC /* Build configuration list for PBXNativeTarget "Pods-DogWalkingArtifact-DogWalkingArtifactUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A899E987EBAEB9E0ABD8DA21500B48AF /* Debug */,
-				3A69E27843316D07871D23DF20D2669E /* Release */,
+				2155F9758E41E42AB9AF9C2573B93E52 /* Debug */,
+				0B1B28A831B9D1DE30B9515AC5B4D770 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1534,6 +1516,24 @@
 			buildConfigurations = (
 				9057C08AC8CF919904DFD3A7BA96322C /* Debug */,
 				50EC5CBE7E3CAEF58D7DE8946426C0D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F406889BFF0437A7AA090BF7A82A02F5 /* Build configuration list for PBXNativeTarget "Pods-DogWalkingArtifactTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE267D777BB0FF758BE16CBAE8A45E4A /* Debug */,
+				329D3C328CBDC889C93BB0D7678FEDF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDC1F4C259302078D0EE36DD17E915CA /* Build configuration list for PBXNativeTarget "Pods-DogWalkingArtifact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A7D8943AA9A5639E3B76CFC2E5D0D8 /* Debug */,
+				37E0C3AB10BECB407D364D65D842A379 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

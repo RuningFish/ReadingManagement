@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57F16184AA68EDA821B82C5C /* libPods-DogWalkingArtifactTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1ECA6B2AA91B291A926259F /* libPods-DogWalkingArtifactTests.a */; };
+		5985FBFF61739894E9847AB8 /* libPods-DogWalkingArtifact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA9366C89C74EAE1A55D0BA /* libPods-DogWalkingArtifact.a */; };
+		B51DB7AAEFA65A8B1142AE0C /* libPods-DogWalkingArtifact-DogWalkingArtifactUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4009FE346C27082A3D002364 /* libPods-DogWalkingArtifact-DogWalkingArtifactUITests.a */; };
+		EA68523E2E34EDDD003DE3C2 /* DogAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA68523D2E34EDDD003DE3C2 /* DogAppDelegate.m */; };
+		EA6852472E34EDDD003DE3C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA6852452E34EDDD003DE3C2 /* Main.storyboard */; };
+		EA6852492E34EDDE003DE3C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA6852482E34EDDE003DE3C2 /* Assets.xcassets */; };
+		EA68524C2E34EDDE003DE3C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA68524A2E34EDDE003DE3C2 /* LaunchScreen.storyboard */; };
+		EA68524F2E34EDDE003DE3C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA68524E2E34EDDE003DE3C2 /* main.m */; };
+		EA6852592E34EDDE003DE3C2 /* DogWalkingArtifactTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6852582E34EDDE003DE3C2 /* DogWalkingArtifactTests.m */; };
+		EA6852632E34EDDE003DE3C2 /* DogWalkingArtifactUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6852622E34EDDE003DE3C2 /* DogWalkingArtifactUITests.m */; };
+		EA6852652E34EDDE003DE3C2 /* DogWalkingArtifactUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6852642E34EDDE003DE3C2 /* DogWalkingArtifactUITestsLaunchTests.m */; };
+		EA6852732E34F109003DE3C2 /* DWASlaspViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6852722E34F109003DE3C2 /* DWASlaspViewController.m */; };
+		EA6852762E34F119003DE3C2 /* DWADogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6852752E34F119003DE3C2 /* DWADogViewController.m */; };
+		EA6852792E34F122003DE3C2 /* DWACatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6852782E34F122003DE3C2 /* DWACatViewController.m */; };
+		EA68527C2E34F12B003DE3C2 /* DWASettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA68527B2E34F12B003DE3C2 /* DWASettingViewController.m */; };
+		EA68527F2E34F139003DE3C2 /* DWAFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA68527E2E34F139003DE3C2 /* DWAFeedbackViewController.m */; };
+		EA6852822E34F16F003DE3C2 /* DWASelectRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6852812E34F16F003DE3C2 /* DWASelectRootViewController.m */; };
+		EA6852852E34F195003DE3C2 /* DWAAnimalsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6852842E34F195003DE3C2 /* DWAAnimalsTableViewCell.m */; };
+		EA6852892E34F3EE003DE3C2 /* DWATabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6852882E34F3EE003DE3C2 /* DWATabbarViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA6852552E34EDDE003DE3C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA6852312E34EDDD003DE3C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA6852382E34EDDD003DE3C2;
+			remoteInfo = DogWalkingArtifact;
+		};
+		EA68525F2E34EDDE003DE3C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA6852312E34EDDD003DE3C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA6852382E34EDDD003DE3C2;
+			remoteInfo = DogWalkingArtifact;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03228A9D3700068C650D018D /* Pods-DogWalkingArtifact-DogWalkingArtifactUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogWalkingArtifact-DogWalkingArtifactUITests.release.xcconfig"; path = "Target Support Files/Pods-DogWalkingArtifact-DogWalkingArtifactUITests/Pods-DogWalkingArtifact-DogWalkingArtifactUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1FC834CE17A84CC3C4EF115F /* Pods-DogWalkingArtifact.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogWalkingArtifact.debug.xcconfig"; path = "Target Support Files/Pods-DogWalkingArtifact/Pods-DogWalkingArtifact.debug.xcconfig"; sourceTree = "<group>"; };
+		3FA9366C89C74EAE1A55D0BA /* libPods-DogWalkingArtifact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DogWalkingArtifact.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4009FE346C27082A3D002364 /* libPods-DogWalkingArtifact-DogWalkingArtifactUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DogWalkingArtifact-DogWalkingArtifactUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB094A262D8225A90CAF5110 /* Pods-DogWalkingArtifactTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogWalkingArtifactTests.release.xcconfig"; path = "Target Support Files/Pods-DogWalkingArtifactTests/Pods-DogWalkingArtifactTests.release.xcconfig"; sourceTree = "<group>"; };
+		D1ECA6B2AA91B291A926259F /* libPods-DogWalkingArtifactTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DogWalkingArtifactTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD3F7A550B066970F69FAED /* Pods-DogWalkingArtifact.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogWalkingArtifact.release.xcconfig"; path = "Target Support Files/Pods-DogWalkingArtifact/Pods-DogWalkingArtifact.release.xcconfig"; sourceTree = "<group>"; };
+		E54FF69A96DD74EDEF94F300 /* Pods-DogWalkingArtifactTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogWalkingArtifactTests.debug.xcconfig"; path = "Target Support Files/Pods-DogWalkingArtifactTests/Pods-DogWalkingArtifactTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA6852392E34EDDD003DE3C2 /* DogWalkingArtifact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogWalkingArtifact.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA68523C2E34EDDD003DE3C2 /* DogAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogAppDelegate.h; sourceTree = "<group>"; };
+		EA68523D2E34EDDD003DE3C2 /* DogAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogAppDelegate.m; sourceTree = "<group>"; };
+		EA6852462E34EDDD003DE3C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA6852482E34EDDE003DE3C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA68524B2E34EDDE003DE3C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA68524D2E34EDDE003DE3C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA68524E2E34EDDE003DE3C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA6852542E34EDDE003DE3C2 /* DogWalkingArtifactTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogWalkingArtifactTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA6852582E34EDDE003DE3C2 /* DogWalkingArtifactTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogWalkingArtifactTests.m; sourceTree = "<group>"; };
+		EA68525E2E34EDDE003DE3C2 /* DogWalkingArtifactUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogWalkingArtifactUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA6852622E34EDDE003DE3C2 /* DogWalkingArtifactUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogWalkingArtifactUITests.m; sourceTree = "<group>"; };
+		EA6852642E34EDDE003DE3C2 /* DogWalkingArtifactUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogWalkingArtifactUITestsLaunchTests.m; sourceTree = "<group>"; };
+		EA6852712E34F109003DE3C2 /* DWASlaspViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWASlaspViewController.h; sourceTree = "<group>"; };
+		EA6852722E34F109003DE3C2 /* DWASlaspViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWASlaspViewController.m; sourceTree = "<group>"; };
+		EA6852742E34F119003DE3C2 /* DWADogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWADogViewController.h; sourceTree = "<group>"; };
+		EA6852752E34F119003DE3C2 /* DWADogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWADogViewController.m; sourceTree = "<group>"; };
+		EA6852772E34F122003DE3C2 /* DWACatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWACatViewController.h; sourceTree = "<group>"; };
+		EA6852782E34F122003DE3C2 /* DWACatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWACatViewController.m; sourceTree = "<group>"; };
+		EA68527A2E34F12B003DE3C2 /* DWASettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWASettingViewController.h; sourceTree = "<group>"; };
+		EA68527B2E34F12B003DE3C2 /* DWASettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWASettingViewController.m; sourceTree = "<group>"; };
+		EA68527D2E34F139003DE3C2 /* DWAFeedbackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWAFeedbackViewController.h; sourceTree = "<group>"; };
+		EA68527E2E34F139003DE3C2 /* DWAFeedbackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWAFeedbackViewController.m; sourceTree = "<group>"; };
+		EA6852802E34F16F003DE3C2 /* DWASelectRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWASelectRootViewController.h; sourceTree = "<group>"; };
+		EA6852812E34F16F003DE3C2 /* DWASelectRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWASelectRootViewController.m; sourceTree = "<group>"; };
+		EA6852832E34F195003DE3C2 /* DWAAnimalsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWAAnimalsTableViewCell.h; sourceTree = "<group>"; };
+		EA6852842E34F195003DE3C2 /* DWAAnimalsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWAAnimalsTableViewCell.m; sourceTree = "<group>"; };
+		EA6852862E34F270003DE3C2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		EA6852872E34F3EE003DE3C2 /* DWATabbarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWATabbarViewController.h; sourceTree = "<group>"; };
+		EA6852882E34F3EE003DE3C2 /* DWATabbarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWATabbarViewController.m; sourceTree = "<group>"; };
+		F7279C7B6D710C926E373D6F /* Pods-DogWalkingArtifact-DogWalkingArtifactUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogWalkingArtifact-DogWalkingArtifactUITests.debug.xcconfig"; path = "Target Support Files/Pods-DogWalkingArtifact-DogWalkingArtifactUITests/Pods-DogWalkingArtifact-DogWalkingArtifactUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA6852362E34EDDD003DE3C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5985FBFF61739894E9847AB8 /* libPods-DogWalkingArtifact.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA6852512E34EDDE003DE3C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F16184AA68EDA821B82C5C /* libPods-DogWalkingArtifactTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA68525B2E34EDDE003DE3C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51DB7AAEFA65A8B1142AE0C /* libPods-DogWalkingArtifact-DogWalkingArtifactUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC902634245C740809CDBF54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FA9366C89C74EAE1A55D0BA /* libPods-DogWalkingArtifact.a */,
+				4009FE346C27082A3D002364 /* libPods-DogWalkingArtifact-DogWalkingArtifactUITests.a */,
+				D1ECA6B2AA91B291A926259F /* libPods-DogWalkingArtifactTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA6852302E34EDDD003DE3C2 = {
+			isa = PBXGroup;
+			children = (
+				EA68523B2E34EDDD003DE3C2 /* DogWalkingArtifact */,
+				EA6852572E34EDDE003DE3C2 /* DogWalkingArtifactTests */,
+				EA6852612E34EDDE003DE3C2 /* DogWalkingArtifactUITests */,
+				EA68523A2E34EDDD003DE3C2 /* Products */,
+				FF1161D131A0699ACCA7E01C /* Pods */,
+				AC902634245C740809CDBF54 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA68523A2E34EDDD003DE3C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA6852392E34EDDD003DE3C2 /* DogWalkingArtifact.app */,
+				EA6852542E34EDDE003DE3C2 /* DogWalkingArtifactTests.xctest */,
+				EA68525E2E34EDDE003DE3C2 /* DogWalkingArtifactUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA68523B2E34EDDD003DE3C2 /* DogWalkingArtifact */ = {
+			isa = PBXGroup;
+			children = (
+				EA68523C2E34EDDD003DE3C2 /* DogAppDelegate.h */,
+				EA68523D2E34EDDD003DE3C2 /* DogAppDelegate.m */,
+				EA6852452E34EDDD003DE3C2 /* Main.storyboard */,
+				EA6852482E34EDDE003DE3C2 /* Assets.xcassets */,
+				EA68524A2E34EDDE003DE3C2 /* LaunchScreen.storyboard */,
+				EA68524D2E34EDDE003DE3C2 /* Info.plist */,
+				EA68524E2E34EDDE003DE3C2 /* main.m */,
+				EA6852712E34F109003DE3C2 /* DWASlaspViewController.h */,
+				EA6852722E34F109003DE3C2 /* DWASlaspViewController.m */,
+				EA6852742E34F119003DE3C2 /* DWADogViewController.h */,
+				EA6852752E34F119003DE3C2 /* DWADogViewController.m */,
+				EA6852772E34F122003DE3C2 /* DWACatViewController.h */,
+				EA6852782E34F122003DE3C2 /* DWACatViewController.m */,
+				EA68527A2E34F12B003DE3C2 /* DWASettingViewController.h */,
+				EA68527B2E34F12B003DE3C2 /* DWASettingViewController.m */,
+				EA68527D2E34F139003DE3C2 /* DWAFeedbackViewController.h */,
+				EA68527E2E34F139003DE3C2 /* DWAFeedbackViewController.m */,
+				EA6852802E34F16F003DE3C2 /* DWASelectRootViewController.h */,
+				EA6852812E34F16F003DE3C2 /* DWASelectRootViewController.m */,
+				EA6852832E34F195003DE3C2 /* DWAAnimalsTableViewCell.h */,
+				EA6852842E34F195003DE3C2 /* DWAAnimalsTableViewCell.m */,
+				EA6852862E34F270003DE3C2 /* PrefixHeader.pch */,
+				EA6852872E34F3EE003DE3C2 /* DWATabbarViewController.h */,
+				EA6852882E34F3EE003DE3C2 /* DWATabbarViewController.m */,
+			);
+			path = DogWalkingArtifact;
+			sourceTree = "<group>";
+		};
+		EA6852572E34EDDE003DE3C2 /* DogWalkingArtifactTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA6852582E34EDDE003DE3C2 /* DogWalkingArtifactTests.m */,
+			);
+			path = DogWalkingArtifactTests;
+			sourceTree = "<group>";
+		};
+		EA6852612E34EDDE003DE3C2 /* DogWalkingArtifactUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA6852622E34EDDE003DE3C2 /* DogWalkingArtifactUITests.m */,
+				EA6852642E34EDDE003DE3C2 /* DogWalkingArtifactUITestsLaunchTests.m */,
+			);
+			path = DogWalkingArtifactUITests;
+			sourceTree = "<group>";
+		};
+		FF1161D131A0699ACCA7E01C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FC834CE17A84CC3C4EF115F /* Pods-DogWalkingArtifact.debug.xcconfig */,
+				DDD3F7A550B066970F69FAED /* Pods-DogWalkingArtifact.release.xcconfig */,
+				F7279C7B6D710C926E373D6F /* Pods-DogWalkingArtifact-DogWalkingArtifactUITests.debug.xcconfig */,
+				03228A9D3700068C650D018D /* Pods-DogWalkingArtifact-DogWalkingArtifactUITests.release.xcconfig */,
+				E54FF69A96DD74EDEF94F300 /* Pods-DogWalkingArtifactTests.debug.xcconfig */,
+				CB094A262D8225A90CAF5110 /* Pods-DogWalkingArtifactTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA6852382E34EDDD003DE3C2 /* DogWalkingArtifact */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA6852682E34EDDE003DE3C2 /* Build configuration list for PBXNativeTarget "DogWalkingArtifact" */;
+			buildPhases = (
+				3FC9F5AEB5EE69CE99D15301 /* [CP] Check Pods Manifest.lock */,
+				EA6852352E34EDDD003DE3C2 /* Sources */,
+				EA6852362E34EDDD003DE3C2 /* Frameworks */,
+				EA6852372E34EDDD003DE3C2 /* Resources */,
+				CDF99DA62ECB2CEE2618AA0C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DogWalkingArtifact;
+			productName = DogWalkingArtifact;
+			productReference = EA6852392E34EDDD003DE3C2 /* DogWalkingArtifact.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA6852532E34EDDE003DE3C2 /* DogWalkingArtifactTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA68526B2E34EDDE003DE3C2 /* Build configuration list for PBXNativeTarget "DogWalkingArtifactTests" */;
+			buildPhases = (
+				B60549FD9CD526BF4BB3708C /* [CP] Check Pods Manifest.lock */,
+				EA6852502E34EDDE003DE3C2 /* Sources */,
+				EA6852512E34EDDE003DE3C2 /* Frameworks */,
+				EA6852522E34EDDE003DE3C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA6852562E34EDDE003DE3C2 /* PBXTargetDependency */,
+			);
+			name = DogWalkingArtifactTests;
+			productName = DogWalkingArtifactTests;
+			productReference = EA6852542E34EDDE003DE3C2 /* DogWalkingArtifactTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA68525D2E34EDDE003DE3C2 /* DogWalkingArtifactUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA68526E2E34EDDE003DE3C2 /* Build configuration list for PBXNativeTarget "DogWalkingArtifactUITests" */;
+			buildPhases = (
+				D60FD4384C6DAAB9DE4C0E3A /* [CP] Check Pods Manifest.lock */,
+				EA68525A2E34EDDE003DE3C2 /* Sources */,
+				EA68525B2E34EDDE003DE3C2 /* Frameworks */,
+				EA68525C2E34EDDE003DE3C2 /* Resources */,
+				F742732346176A15E76FF188 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA6852602E34EDDE003DE3C2 /* PBXTargetDependency */,
+			);
+			name = DogWalkingArtifactUITests;
+			productName = DogWalkingArtifactUITests;
+			productReference = EA68525E2E34EDDE003DE3C2 /* DogWalkingArtifactUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA6852312E34EDDD003DE3C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = DWA;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					EA6852382E34EDDD003DE3C2 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					EA6852532E34EDDE003DE3C2 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EA6852382E34EDDD003DE3C2;
+					};
+					EA68525D2E34EDDE003DE3C2 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EA6852382E34EDDD003DE3C2;
+					};
+				};
+			};
+			buildConfigurationList = EA6852342E34EDDD003DE3C2 /* Build configuration list for PBXProject "DogWalkingArtifact" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA6852302E34EDDD003DE3C2;
+			productRefGroup = EA68523A2E34EDDD003DE3C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA6852382E34EDDD003DE3C2 /* DogWalkingArtifact */,
+				EA6852532E34EDDE003DE3C2 /* DogWalkingArtifactTests */,
+				EA68525D2E34EDDE003DE3C2 /* DogWalkingArtifactUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA6852372E34EDDD003DE3C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA68524C2E34EDDE003DE3C2 /* LaunchScreen.storyboard in Resources */,
+				EA6852492E34EDDE003DE3C2 /* Assets.xcassets in Resources */,
+				EA6852472E34EDDD003DE3C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA6852522E34EDDE003DE3C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA68525C2E34EDDE003DE3C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FC9F5AEB5EE69CE99D15301 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DogWalkingArtifact-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B60549FD9CD526BF4BB3708C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DogWalkingArtifactTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDF99DA62ECB2CEE2618AA0C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DogWalkingArtifact/Pods-DogWalkingArtifact-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DogWalkingArtifact/Pods-DogWalkingArtifact-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DogWalkingArtifact/Pods-DogWalkingArtifact-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D60FD4384C6DAAB9DE4C0E3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DogWalkingArtifact-DogWalkingArtifactUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F742732346176A15E76FF188 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DogWalkingArtifact-DogWalkingArtifactUITests/Pods-DogWalkingArtifact-DogWalkingArtifactUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DogWalkingArtifact-DogWalkingArtifactUITests/Pods-DogWalkingArtifact-DogWalkingArtifactUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DogWalkingArtifact-DogWalkingArtifactUITests/Pods-DogWalkingArtifact-DogWalkingArtifactUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA6852352E34EDDD003DE3C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6852852E34F195003DE3C2 /* DWAAnimalsTableViewCell.m in Sources */,
+				EA6852792E34F122003DE3C2 /* DWACatViewController.m in Sources */,
+				EA6852732E34F109003DE3C2 /* DWASlaspViewController.m in Sources */,
+				EA6852892E34F3EE003DE3C2 /* DWATabbarViewController.m in Sources */,
+				EA68523E2E34EDDD003DE3C2 /* DogAppDelegate.m in Sources */,
+				EA68524F2E34EDDE003DE3C2 /* main.m in Sources */,
+				EA6852762E34F119003DE3C2 /* DWADogViewController.m in Sources */,
+				EA68527C2E34F12B003DE3C2 /* DWASettingViewController.m in Sources */,
+				EA68527F2E34F139003DE3C2 /* DWAFeedbackViewController.m in Sources */,
+				EA6852822E34F16F003DE3C2 /* DWASelectRootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA6852502E34EDDE003DE3C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6852592E34EDDE003DE3C2 /* DogWalkingArtifactTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA68525A2E34EDDE003DE3C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6852632E34EDDE003DE3C2 /* DogWalkingArtifactUITests.m in Sources */,
+				EA6852652E34EDDE003DE3C2 /* DogWalkingArtifactUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA6852562E34EDDE003DE3C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA6852382E34EDDD003DE3C2 /* DogWalkingArtifact */;
+			targetProxy = EA6852552E34EDDE003DE3C2 /* PBXContainerItemProxy */;
+		};
+		EA6852602E34EDDE003DE3C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA6852382E34EDDD003DE3C2 /* DogWalkingArtifact */;
+			targetProxy = EA68525F2E34EDDE003DE3C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA6852452E34EDDD003DE3C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA6852462E34EDDD003DE3C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA68524A2E34EDDE003DE3C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA68524B2E34EDDE003DE3C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA6852662E34EDDE003DE3C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA6852672E34EDDE003DE3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA6852692E34EDDE003DE3C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FC834CE17A84CC3C4EF115F /* Pods-DogWalkingArtifact.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DogWalkingArtifact/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DogWalkingArtifact/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "www.-rf.com.DogWalkingArtifact";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA68526A2E34EDDE003DE3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDD3F7A550B066970F69FAED /* Pods-DogWalkingArtifact.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DogWalkingArtifact/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DogWalkingArtifact/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "www.-rf.com.DogWalkingArtifact";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA68526C2E34EDDE003DE3C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E54FF69A96DD74EDEF94F300 /* Pods-DogWalkingArtifactTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "www.-rf.com.DogWalkingArtifactTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DogWalkingArtifact.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DogWalkingArtifact";
+			};
+			name = Debug;
+		};
+		EA68526D2E34EDDE003DE3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB094A262D8225A90CAF5110 /* Pods-DogWalkingArtifactTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "www.-rf.com.DogWalkingArtifactTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DogWalkingArtifact.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DogWalkingArtifact";
+			};
+			name = Release;
+		};
+		EA68526F2E34EDDE003DE3C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7279C7B6D710C926E373D6F /* Pods-DogWalkingArtifact-DogWalkingArtifactUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "www.-rf.com.DogWalkingArtifactUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DogWalkingArtifact;
+			};
+			name = Debug;
+		};
+		EA6852702E34EDDE003DE3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03228A9D3700068C650D018D /* Pods-DogWalkingArtifact-DogWalkingArtifactUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "www.-rf.com.DogWalkingArtifactUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DogWalkingArtifact;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA6852342E34EDDD003DE3C2 /* Build configuration list for PBXProject "DogWalkingArtifact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA6852662E34EDDE003DE3C2 /* Debug */,
+				EA6852672E34EDDE003DE3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA6852682E34EDDE003DE3C2 /* Build configuration list for PBXNativeTarget "DogWalkingArtifact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA6852692E34EDDE003DE3C2 /* Debug */,
+				EA68526A2E34EDDE003DE3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA68526B2E34EDDE003DE3C2 /* Build configuration list for PBXNativeTarget "DogWalkingArtifactTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA68526C2E34EDDE003DE3C2 /* Debug */,
+				EA68526D2E34EDDE003DE3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA68526E2E34EDDE003DE3C2 /* Build configuration list for PBXNativeTarget "DogWalkingArtifactUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA68526F2E34EDDE003DE3C2 /* Debug */,
+				EA6852702E34EDDE003DE3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA6852312E34EDDD003DE3C2 /* Project object */;
+}
